@@ -7,7 +7,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import PreLoader from "./components/preLoader";
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps, isHome }) {
   // Preloader
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
   // End preloader
   return (
     <>
-      {isLoading && <PreLoader />}
+      {isHome && isLoading && <PreLoader />}
       <Navbar />
       <Component {...pageProps} />
       <Footer />
