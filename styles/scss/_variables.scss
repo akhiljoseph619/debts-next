@@ -1,0 +1,40 @@
+:root {
+  //colors
+  --white: #fff;
+  --black: #000;
+
+  --color-100: #de2027;
+
+  // Dark color grade
+  --bk-grade-100: #eaeaea;
+  --bk-grade-150: #d6d6d6;
+  --bk-grade-200: #c1c1c1;
+  --bk-grade-250: #adadad;
+  --bk-grade-300: #999999;
+  --bk-grade-350: #848484;
+  --bk-grade-400: #707070;
+  --bk-grade-450: #5b5b5b;
+  --bk-grade-500: #474747;
+  --bk-grade-550: #333333;
+  --bk-grade-600: #2d2d2d;
+  --bk-grade-650: #282828;
+  --bk-grade-700: #232323;
+  --bk-grade-750: #1e1e1e;
+  --bk-grade-800: #191919;
+  --bk-grade-850: #141414;
+  --bk-grade-900: #0f0f0f;
+  --bk-grade-950: #0a0a0a;
+
+  // Fonts
+  --primary-font-family: "Poppins";
+
+  //Font weight
+  --font-weight-lighter: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: normal;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: bold;
+}
+
+$color-100: #de2027;

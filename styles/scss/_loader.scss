@@ -1,0 +1,54 @@
+.loader-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  background-position: left top;
+  background-repeat: repeat;
+  z-index: 99999;
+  .logo {
+    position: relative;
+    display: block;
+    width: 192px;
+    height: 62px;
+    z-index: 10;
+    img {
+      width: 100%;
+    }
+    .logo-gear {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 61px;
+      z-index: -1;
+      animation: logoGear 2s infinite;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.loader-txt {
+  color: #333333;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.45rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+// Logo Gear
+@keyframes logoGear {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

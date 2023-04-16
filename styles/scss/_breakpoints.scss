@@ -1,0 +1,149 @@
+// min -----------------
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  // .dropdown:hover .dropdown-menu {
+  //   display: block;
+  // }
+  // .dropdown-menu {
+  //   animation: drop-anim 0.3s ease-out;
+  // }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 1600px) {
+  .navbar-main .container,
+  .navbar-main .container-lg,
+  .navbar-main .container-md,
+  .navbar-main .container-sm,
+  .navbar-main .container-xl,
+  .navbar-main .container-xxl {
+    max-width: 1450px;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1450px;
+  }
+}
+
+@media (min-width: 1920px) {
+}
+
+// max -----------------
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (max-width: 991px) {
+  .sec-top-pd-lg {
+    padding-top: 4rem;
+  }
+  .sec-top-pd-md {
+    padding-top: 2rem;
+  }
+  .sec-btm-pd-lg {
+    padding-bottom: 4rem;
+  }
+  .sec-btm-pd-md {
+    padding-bottom: 2rem;
+  }
+  .navbar-main {
+    top: 0;
+    padding: 0.5rem 0 0.5rem;
+  }
+  .navbar-main.navbar-fixed {
+    padding: 0.5rem 0 0.5rem;
+  }
+  .main-nav .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  .main-nav .nav-item + .nav-item::before {
+    display: none;
+  }
+  .welcome-img-cover {
+    max-width: 425px;
+    margin: 0 auto 6rem;
+  }
+  .book-sec::before {
+    height: 100%;
+  }
+  .service-cover {
+    max-width: unset;
+    padding-top: 0;
+    margin-left: 0;
+  }
+  .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .btm-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 650px) {
+}
+
+@media (max-width: 576px) {
+  .sec-top-pd-lg {
+    padding-top: 3rem;
+  }
+  .sec-top-pd-md {
+    padding-top: 1.5rem;
+  }
+  .sec-btm-pd-lg {
+    padding-bottom: 3rem;
+  }
+  .sec-btm-pd-md {
+    padding-bottom: 1.5rem;
+  }
+  .navbar-main .logo {
+    width: 275px;
+  }
+  .navbar-main.navbar-fixed .logo {
+    width: calc(275px - 5%);
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
