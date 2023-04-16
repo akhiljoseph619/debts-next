@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import SliderProcess from "./components/processSlider";
@@ -11,6 +10,18 @@ import "aos/dist/aos.css";
 
 export default function Home() {
   const router = useRouter();
+
+  // Bootstra carousel hover pause
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovering(false);
+  };
+  // AOS animation
   useEffect(() => {
     import("aos").then((AOS) => {
       AOS.init();
@@ -27,7 +38,12 @@ export default function Home() {
 
       <section className="banner-sec">
         <div className="banner-cover">
-          <Carousel fade controls={false} indicators={false}>
+          <Carousel
+            pause={!isHovering}
+            fade
+            controls={false}
+            indicators={false}
+          >
             <Carousel.Item>
               <img
                 className="slider-web"
