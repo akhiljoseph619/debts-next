@@ -295,6 +295,11 @@ export default function Home() {
                       </div>
                       <i>
                         <img src="images/service-icon-01.png" alt="Service" />
+                        <img
+                          className="hover"
+                          src="images/service-icon-wt-01.png"
+                          alt="Service"
+                        />
                       </i>
                     </figure>
                     <div className="service-body">
@@ -311,6 +316,11 @@ export default function Home() {
                       </div>
                       <i>
                         <img src="images/service-icon-02.png" alt="Service" />
+                        <img
+                          className="hover"
+                          src="images/service-icon-wt-02.png"
+                          alt="Service"
+                        />
                       </i>
                     </figure>
                     <div className="service-body">
@@ -324,6 +334,11 @@ export default function Home() {
                       </div>
                       <i>
                         <img src="images/service-icon-03.png" alt="Service" />
+                        <img
+                          className="hover"
+                          src="images/service-icon-wt-03.png"
+                          alt="Service"
+                        />
                       </i>
                     </figure>
                     <div className="service-body">
@@ -340,6 +355,11 @@ export default function Home() {
                       </div>
                       <i>
                         <img src="images/service-icon-04.png" alt="Service" />
+                        <img
+                          className="hover"
+                          src="images/service-icon-wt-04.png"
+                          alt="Service"
+                        />
                       </i>
                     </figure>
                     <div className="service-body">

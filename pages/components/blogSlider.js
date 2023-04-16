@@ -28,7 +28,12 @@ const blogResponsive = {
 
 export default function BlogSlider() {
   return (
-    <div class="blog-carousel">
+    <div
+      class="blog-carousel"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+    >
       <OwlCarousel
         className="owl-theme"
         nav={true}

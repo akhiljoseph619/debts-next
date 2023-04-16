@@ -33,7 +33,12 @@ const proResponsive = {
 
 export default function SliderProcess() {
   return (
-    <div class="process-carousel">
+    <div
+      class="process-carousel"
+      data-aos="fade-up"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+    >
       <OwlCarousel
         className="owl-theme"
         nav={true}
