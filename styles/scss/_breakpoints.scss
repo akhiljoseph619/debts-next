@@ -230,6 +230,18 @@
   .section-hd h2 {
     font-size: 1.875rem;
   }
+  .pro-bg-graphics .particle-item.part-item-01 {
+    left: 4%;
+    top: 18%;
+  }
+  .pro-bg-graphics .particle-item.part-item-02 {
+    right: 4%;
+    top: 18%;
+  }
+  .book-bg-graphics .particle-item.part-item-01 {
+    left: 4%;
+    top: 2%;
+  }
   .book-form-cover {
     padding: 1.5rem;
   }
@@ -252,6 +264,11 @@
   .ft-links-cover h3 {
     font-size: 1.25rem;
     margin: 0 0 1rem 0;
+  }
+  .blog-sec .blog-bg-graphics .particle-item.part-item-01 {
+    right: 0;
+    top: 0;
+    width: 90px;
   }
   .copyright-cover {
     margin-top: 1rem;
