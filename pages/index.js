@@ -69,7 +69,10 @@ export default function Home() {
           <div className="banner-body">
             <div className="container-xxl">
               <div className="banner-content">
-                <h2>Take control of your finances and get debt relief.</h2>
+                <h2>
+                  <span className="first-word">Take</span> control of your
+                  finances and get debt relief.
+                </h2>
                 <h4>If you're drowning in debt, we can help you.</h4>
                 <div className="banner-nav">
                   <Link className="btn btn-shine btn-book" href="">
@@ -79,6 +82,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="arrow-down">
+            <i className="bi bi-arrow-down-short"></i>
           </div>
         </div>
       </section>
@@ -99,7 +105,20 @@ export default function Home() {
                 >
                   <img src="images/welcome-site-img.jpg" alt="Image" />
                 </div>
-                <div className="d-shape">
+                <div className="particle-cover">
+                  <div className="particle-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 45 45"
+                      className="particle-svg"
+                    >
+                      <path d="M29.8 22L40.4 32.6 33.4 39.7 22.8 29.1 12.1 39.7 5.1 32.6 15.7 22 5.1 11.4 12.1 4.3 22.8 14.9 33.4 4.3 40.4 11.4z" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="wel-d-shape">
                   <img src="images/d-shape.svg" alt="D Shape" />
                 </div>
               </div>
@@ -129,7 +148,7 @@ export default function Home() {
                   help their clients become debt-free as quickly and efficiently
                   as possible.
                 </p>
-                <Link className="btn btn-shine btn-book" href="javascript:;">
+                <Link className="btn btn-shine btn-book" href="">
                   Learn More
                 </Link>
               </div>
@@ -142,6 +161,30 @@ export default function Home() {
         className="process-sec sec-top-pd-lg sec-btm-pd-md"
         data-aos="fadeIn"
       >
+        <div className="pro-bg-graphics">
+          <div className="particle-item part-item-01">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 32 32"
+              className="particle-svg"
+            >
+              <circle cx={16} cy={16} r={13.1} />
+            </svg>
+          </div>
+          <div className="particle-item part-item-02">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 45 45"
+              className="particle-svg"
+            >
+              <path d="M29.8 22L40.4 32.6 33.4 39.7 22.8 29.1 12.1 39.7 5.1 32.6 15.7 22 5.1 11.4 12.1 4.3 22.8 14.9 33.4 4.3 40.4 11.4z" />
+            </svg>
+          </div>
+        </div>
         <Container fluid="xxl">
           <Row>
             <div className="col-12">
@@ -190,7 +233,7 @@ export default function Home() {
                   We know how to help you regain control of your debt and life
                   and reduce financial stress.
                 </p>
-                <a className="btn btn-shine btn-book" href="javascript:;">
+                <a className="btn btn-shine btn-book" href="">
                   BOOK A FREE ASSEssMENT
                 </a>
               </div>
@@ -210,6 +253,19 @@ export default function Home() {
       </section>
 
       <section className="book-sec sec-top-pd-lg" data-aos="fadeIn">
+        <div className="book-bg-graphics">
+          <div className="particle-item part-item-01">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 32 32"
+              className="particle-svg"
+            >
+              <path d="M25.1 29.2L6.9 15.6 25.1 2.8z" />
+            </svg>
+          </div>
+        </div>
         <Container fluid="xxl">
           <Row>
             <Col xs="12" lg="6">
@@ -288,7 +344,7 @@ export default function Home() {
                   </h2>
                 </div>
                 <div className="service-list">
-                  <div className="service-item">
+                  <Link className="service-item" href="./coming-soon">
                     <figure>
                       <div className="img-shape">
                         <img src="images/d-shape.svg" alt="Shape" />
@@ -308,8 +364,8 @@ export default function Home() {
                         Proposal
                       </h5>
                     </div>
-                  </div>
-                  <div className="service-item">
+                  </Link>
+                  <Link className="service-item" href="./coming-soon">
                     <figure>
                       <div className="img-shape">
                         <img src="images/d-shape.svg" alt="Shape" />
@@ -326,8 +382,8 @@ export default function Home() {
                     <div className="service-body">
                       <h5>Bankruptcy</h5>
                     </div>
-                  </div>
-                  <div className="service-item">
+                  </Link>
+                  <Link className="service-item" href="./coming-soon">
                     <figure>
                       <div className="img-shape">
                         <img src="images/d-shape.svg" alt="Shape" />
@@ -347,8 +403,8 @@ export default function Home() {
                         Loans
                       </h5>
                     </div>
-                  </div>
-                  <div className="service-item">
+                  </Link>
+                  <Link className="service-item" href="./coming-soon">
                     <figure>
                       <div className="img-shape">
                         <img src="images/d-shape.svg" alt="Shape" />
@@ -368,7 +424,7 @@ export default function Home() {
                         Counselling
                       </h5>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </Col>
@@ -377,6 +433,11 @@ export default function Home() {
       </section>
 
       <section className="blog-sec sec-top-pd-lg sec-btm-pd-lg">
+        <div className="blog-bg-graphics">
+          <div className="particle-item part-item-01">
+            <img src="images/dots.svg" alt="Service" />
+          </div>
+        </div>
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">

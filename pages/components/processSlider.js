@@ -34,7 +34,7 @@ const proResponsive = {
 export default function SliderProcess() {
   return (
     <div
-      class="process-carousel"
+      className="process-carousel"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="1000"
@@ -46,46 +46,46 @@ export default function SliderProcess() {
         navText={false}
         responsive={proResponsive}
       >
-        <div class="item">
-          <div class="process-item">
-            <div class="counter">1</div>
+        <div className="item">
+          <div className="process-item">
+            <div className="counter">1</div>
             <figure>
               <img src="images/process-img-01.jpg" alt="Process" />
             </figure>
-            <div class="process-body">
+            <div className="process-body">
               <p>Book your free consultation (phone, video or in-person).</p>
             </div>
           </div>
         </div>
-        <div class="item">
-          <div class="process-item">
-            <div class="counter">2</div>
+        <div className="item">
+          <div className="process-item">
+            <div className="counter">2</div>
             <figure>
               <img src="images/process-img-02.jpg" alt="Process" />
             </figure>
-            <div class="process-body">
+            <div className="process-body">
               <p>We will discuss the best debt-relief options for you.</p>
             </div>
           </div>
         </div>
-        <div class="item">
-          <div class="process-item">
-            <div class="counter">3</div>
+        <div className="item">
+          <div className="process-item">
+            <div className="counter">3</div>
             <figure>
               <img src="images/process-img-03.jpg" alt="Process" />
             </figure>
-            <div class="process-body">
+            <div className="process-body">
               <p>We look after all the paperwork and manage all the details.</p>
             </div>
           </div>
         </div>
-        <div class="item">
-          <div class="process-item">
-            <div class="counter">4</div>
+        <div className="item">
+          <div className="process-item">
+            <div className="counter">4</div>
             <figure>
               <img src="images/process-img-04.jpg" alt="Process" />
             </figure>
-            <div class="process-body">
+            <div className="process-body">
               <p>Start living your best life debt-free, with confidence.</p>
             </div>
           </div>

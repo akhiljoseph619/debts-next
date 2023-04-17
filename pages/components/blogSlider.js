@@ -29,7 +29,7 @@ const blogResponsive = {
 export default function BlogSlider() {
   return (
     <div
-      class="blog-carousel"
+      className="blog-carousel"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="1000"

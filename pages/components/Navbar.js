@@ -19,11 +19,14 @@ export default function navbarMain() {
     }
   };
 
+  const router = useRouter();
+  const currentRoute = router.pathname;
+
   return (
     <Navbar className={`navbar-main ${stickyClass}`} bg="light" expand="lg">
       <Container fluid="xxl">
         <div className="logo">
-          <Link href="./">
+          <Link href="/">
             <img src="images/debt-logo.png" alt="DEBTSOLUTIONS GROUP" />
           </Link>
         </div>
@@ -80,32 +83,72 @@ export default function navbarMain() {
 
           <ul className="navbar-nav main-nav">
             <li className="nav-item">
-              <Link className="nav-link" href="./">
+              <Link
+                href="/"
+                className={
+                  router.pathname == "/" ? "active nav-link" : "nav-link"
+                }
+              >
                 <span className="nav-block">Home</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="./coming-soon">
+              <Link
+                href="/about-us"
+                className={
+                  router.pathname == "/about-us"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">About Us</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="./coming-soon">
+              <Link
+                href="/debit-relief-services"
+                className={
+                  router.pathname == "/debit-relief-services"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Debt Relief Services</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="./coming-soon">
+              <Link
+                href="/consumer-proposal"
+                className={
+                  router.pathname == "/consumer-proposal"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Consumer Proposal</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="./coming-soon">
+              <Link
+                href="/bankruptcy"
+                className={
+                  router.pathname == "/bankruptcy"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Bankruptcy</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="./coming-soon">
+              <Link
+                href="/contact-us"
+                className={
+                  router.pathname == "/contact-us"
+                    ? "active nav-link"
+                    : "nav-link"
+                }
+              >
                 <span className="nav-block">Contact Us</span>
               </Link>
             </li>

@@ -308,13 +308,15 @@ input[type="number"]::-webkit-inner-spin-button {
         vertical-align: middle;
         width: 24px;
         margin-right: 0.25rem;
-        animation: iconHorizotalRotation 3s ease-out infinite;
         i {
           font-size: 1.25rem;
         }
       }
       &:hover {
         color: var(--color-100) !important;
+        .nav-icon {
+          animation: bellRing 5s ease-out infinite;
+        }
       }
       &.nav-lng {
         padding: 0.05rem 1rem;
@@ -368,29 +370,20 @@ input[type="number"]::-webkit-inner-spin-button {
           left: 0;
           right: 0;
           bottom: -0.5rem;
-          width: 0;
-          height: 3px;
+          width: 100%;
+          height: 0;
           margin: 0 auto;
           border-radius: 4px;
           background-color: var(--color-100);
           @include transEase;
         }
       }
-      &:hover {
+      &:hover,
+      &.active {
         color: var(--color-100) !important;
         .nav-block {
           &::after {
-            width: 100%;
-          }
-        }
-      }
-    }
-    &.active {
-      .nav-link {
-        background-color: transparent !important;
-        .nav-block {
-          &::after {
-            width: 100%;
+            height: 3px;
           }
         }
       }
@@ -443,39 +436,75 @@ input[type="number"]::-webkit-inner-spin-button {
     transform: translateY(-50%);
     z-index: 30;
   }
-  .banner-content {
-    max-width: 950px;
+  .arrow-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3rem;
+    width: 60px;
+    height: 60px;
+    color: var(--bk-grade-950);
+    font-size: 1.5rem;
     margin: 0 auto;
-    text-align: center;
-    h2 {
-      color: var(--white);
-      font-size: 3.5rem;
-      font-weight: var(--font-weight-bold);
-      line-height: 100%;
-      margin: 0 0 1rem 0;
-      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    background-color: var(--white);
+    border-radius: 50%;
+    z-index: 10;
+    animation: downBounce 2s infinite;
+  }
+}
+
+.banner-content {
+  position: relative;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10;
+  h2 {
+    color: var(--white);
+    font-size: 3.5rem;
+    font-weight: var(--font-weight-bold);
+    line-height: 100%;
+    margin: 0 0 1rem 0;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    .first-word {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        left: -20px;
+        top: -5px;
+        width: 50px;
+        height: 55px;
+        background-image: url(../../public/images/d-shape.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+      }
     }
-    h4 {
+  }
+  h4 {
+    color: var(--white);
+    font-size: 1.125rem;
+    font-weight: var(--font-weight-semibold);
+    margin: 0 0 1rem 0;
+  }
+  .banner-nav {
+    margin-top: 2rem;
+    .btn-book {
+      display: block;
+      width: 100%;
+      max-width: 300px;
       color: var(--white);
-      font-size: 1.125rem;
-      font-weight: var(--font-weight-semibold);
-      margin: 0 0 1rem 0;
-    }
-    .banner-nav {
-      margin-top: 2rem;
-      .btn-book {
-        display: block;
-        width: 100%;
-        max-width: 300px;
-        color: var(--white);
-        padding: 0.875rem 1rem;
-        margin: 0 auto;
-        background-color: var(--bk-grade-950);
-        border-radius: 0;
-        text-transform: uppercase;
-        &:hover {
-          background-color: var(--color-100);
-        }
+      padding: 0.875rem 1rem;
+      margin: 0 auto;
+      background-color: var(--bk-grade-950);
+      border-radius: 0;
+      text-transform: uppercase;
+      &:hover {
+        background-color: var(--color-100);
       }
     }
   }
@@ -498,7 +527,32 @@ input[type="number"]::-webkit-inner-spin-button {
       width: 100%;
     }
   }
-  .d-shape {
+  .particle-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    .particle-item {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -4rem;
+      margin: 0 auto;
+      width: 2rem;
+      .particle-svg {
+        fill: none;
+        stroke: rgb(0, 0, 0);
+        stroke-miterlimit: 1;
+        stroke-width: 3px;
+        stroke-linecap: square;
+        stroke-dasharray: 1;
+        stroke-dashoffset: 10px;
+        animation: bannerParticle 8s 1s infinite;
+      }
+    }
+  }
+  .wel-d-shape {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -570,7 +624,38 @@ input[type="number"]::-webkit-inner-spin-button {
   position: relative;
 }
 
+.pro-bg-graphics {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  .particle-item {
+    position: absolute;
+    width: 2rem;
+    .particle-svg {
+      fill: none;
+      stroke: rgb(0, 0, 0);
+      stroke-miterlimit: 1;
+      stroke-width: 3px;
+      stroke-linecap: square;
+      stroke-dasharray: 1;
+      stroke-dashoffset: 10px;
+      animation: bannerParticle 8s 1s infinite;
+    }
+    &.part-item-01 {
+      left: 10%;
+      top: 25%;
+    }
+    &.part-item-02 {
+      right: 10%;
+      top: 15%;
+    }
+  }
+}
+
 .process-hd {
+  position: relative;
   h2 {
     font-size: 2.5rem;
   }
@@ -767,6 +852,32 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 }
 
+.book-bg-graphics {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  .particle-item {
+    position: absolute;
+    width: 2rem;
+    .particle-svg {
+      fill: none;
+      stroke: rgb(0, 0, 0);
+      stroke-miterlimit: 1;
+      stroke-width: 3px;
+      stroke-linecap: square;
+      stroke-dasharray: 1;
+      stroke-dashoffset: 10px;
+      animation: bannerParticle 8s 1s infinite;
+    }
+    &.part-item-01 {
+      left: 4%;
+      top: 4%;
+    }
+  }
+}
+
 .book-form-cover {
   position: relative;
   max-width: 675px;
@@ -905,6 +1016,24 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .blog-sec {
+  .blog-bg-graphics {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    .particle-item {
+      position: absolute;
+      &.part-item-01 {
+        right: 5%;
+        top: 2%;
+        width: 150px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
   .blog-hd {
     text-align: center;
   }

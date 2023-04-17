@@ -3,12 +3,12 @@ import React from "react";
 export default function PreLoader() {
   return (
     <>
-      <div class="loader-overlay">
-        <div class="loader-cover">
-          <div class="logo">
+      <div className="loader-overlay">
+        <div className="loader-cover">
+          <div className="logo">
             <img src="images/loader.png" alt="Loader" />
           </div>
-          <div class="loader-txt">Loading</div>
+          <div className="loader-txt">Loading</div>
         </div>
       </div>
     </>

@@ -90,7 +90,7 @@ export default function Footer() {
                   It's going to be okay. Book your free consultation today.
                   We'll do the rest.
                 </p>
-                <Link className="btn btn-book" href="javascript:;">
+                <Link className="btn btn-book" href="">
                   Book Now
                 </Link>
               </div>
@@ -100,22 +100,22 @@ export default function Footer() {
                 <h3>Our Services</h3>
                 <ul className="ft-links">
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       Consumer Proposal
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       Bankruptcy
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       Debt Consolidation Loans
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       Credit Counselling
                     </Link>
                   </li>
@@ -127,22 +127,22 @@ export default function Footer() {
                 <h3>Quick Links</h3>
                 <ul className="ft-links">
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       About Us
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       Free Assessment
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       Our Blog
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="#">
+                    <Link className="ft-nav" href="">
                       Contact Us
                     </Link>
                   </li>
@@ -161,22 +161,22 @@ export default function Footer() {
               <Col xs="12" lg="6">
                 <ul className="btm-list">
                   <li className="btm-item">
-                    <Link className="btm-link" href="#">
+                    <Link className="btm-link" href="">
                       Terms & Conditions
                     </Link>
                   </li>
                   <li className="btm-item">
-                    <Link className="btm-link" href="#">
+                    <Link className="btm-link" href="">
                       Disclaimer
                     </Link>
                   </li>
                   <li className="btm-item">
-                    <Link className="btm-link" href="#">
+                    <Link className="btm-link" href="">
                       Privacy Policy
                     </Link>
                   </li>
                   <li className="btm-item">
-                    <Link className="btm-link" href="#">
+                    <Link className="btm-link" href="">
                       Contact Us
                     </Link>
                   </li>
