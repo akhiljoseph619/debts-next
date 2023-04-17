@@ -18,8 +18,11 @@ const blogResponsive = {
   0: {
     items: 1,
   },
-  768: {
+  576: {
     items: 2,
+  },
+  992: {
+    items: 3,
   },
   1200: {
     items: 3,
@@ -39,6 +42,7 @@ export default function BlogSlider() {
         nav={true}
         dots={true}
         navText={false}
+        margin={15}
         responsive={blogResponsive}
       >
         <div className="item">

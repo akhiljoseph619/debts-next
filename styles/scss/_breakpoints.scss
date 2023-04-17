@@ -63,6 +63,22 @@
 }
 
 @media (max-width: 1200px) {
+  .navbar-main {
+    top: 1rem;
+    padding: 1rem 0.5rem 1rem;
+  }
+  .navbar-main.navbar-fixed {
+    padding: 0.5rem 0.5rem 0.5rem;
+  }
+  .navbar-main .logo {
+    width: 325px;
+  }
+  .navbar-main.navbar-fixed .logo {
+    width: calc(325px - 5%);
+  }
+  .main-nav .nav-item .nav-link {
+    padding: 0.5rem 0.5rem;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -94,12 +110,57 @@
   .main-nav .nav-item + .nav-item::before {
     display: none;
   }
+  .banner-content h2 {
+    font-size: 2.5rem;
+  }
   .welcome-img-cover {
-    max-width: 425px;
-    margin: 0 auto 6rem;
+    max-width: 400px;
+    margin: 0 auto 8rem;
+  }
+  .welcome-img-cover .wel-d-shape {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    transform: translate(-50%, 25%);
+  }
+  .welcome-content .welcome-con-hd h1 {
+    font-size: 2rem;
+  }
+  .welcome-content h4 {
+    font-size: 1.125rem;
+  }
+  .process-hd h2 {
+    font-size: 2rem;
+  }
+  .process-item .counter {
+    width: 60px;
+    height: 60px;
+  }
+  .process-item:hover .counter {
+    width: 48px;
+    height: 48px;
+  }
+  .section-hd {
+    margin-bottom: 2rem;
+  }
+  .section-hd h2 {
+    font-size: 2rem;
+  }
+  .support-content {
+    margin-bottom: 2rem;
+  }
+  .support-content h4 {
+    font-size: 1.125rem;
   }
   .book-sec::before {
     height: 100%;
+  }
+  .book-form-cover {
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 0 auto 2rem;
   }
   .service-cover {
     max-width: unset;
@@ -116,6 +177,10 @@
 }
 
 @media (max-width: 767px) {
+  .ft-contact-cover .ft-logo {
+    max-width: 300px;
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 650px) {
@@ -140,10 +205,73 @@
   .navbar-main.navbar-fixed .logo {
     width: calc(275px - 5%);
   }
+  .banner-content h2 {
+    font-size: 2rem;
+  }
+  .banner-content .banner-nav .btn-book {
+    max-width: 250px;
+    padding: 0.875rem 0.5rem;
+  }
+  .banner-cover .arrow-down {
+    bottom: 2rem;
+    width: 48px;
+    height: 48px;
+  }
+  .welcome-img-cover {
+    max-width: 375px;
+    margin: 0 auto 6rem;
+  }
+  .welcome-img-cover .wel-d-shape {
+    width: 200px;
+  }
+  .welcome-content .welcome-con-hd h1 {
+    font-size: 1.875rem;
+  }
+  .section-hd h2 {
+    font-size: 1.875rem;
+  }
+  .book-form-cover {
+    padding: 1.5rem;
+  }
+  .service-item figure {
+    width: 75px;
+    height: 75px;
+    padding: 0.25rem;
+  }
+  .service-item figure i {
+    width: 62px;
+    height: 62px;
+  }
+  .service-item .service-body h5 {
+    font-size: 1.125rem;
+  }
+  .ft-book-cover h3 {
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+  }
+  .ft-links-cover h3 {
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+  }
+  .copyright-cover {
+    margin-top: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
+  .navbar-main .logo {
+    width: 250px;
+  }
+  .navbar-main.navbar-fixed .logo {
+    width: calc(250px - 5%);
+  }
 }
 
 @media (max-width: 320px) {
+  .navbar-main .logo {
+    width: 220px;
+  }
+  .navbar-main.navbar-fixed .logo {
+    width: calc(220px - 5%);
+  }
 }
