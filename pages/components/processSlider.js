@@ -16,8 +16,8 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 
 const proResponsive = {
   0: {
-    items: 2,
-    slideBy: 2,
+    items: 1,
+    slideBy: 1,
   },
   480: {
     items: 2,
