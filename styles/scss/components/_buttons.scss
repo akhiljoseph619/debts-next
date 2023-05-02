@@ -1,0 +1,27 @@
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(208, 242, 255, 0) 0%,
+      rgba(208, 242, 255, 0.3) 100%
+    );
+    transform: skewX(-25deg);
+    z-index: 10;
+  }
+}
+.btn-shine {
+  &:hover {
+    &:before {
+      animation: btn-shineAnim 0.75s;
+    }
+  }
+}

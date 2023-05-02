@@ -1,21 +1,19 @@
-/* Variables CSS
--------------------------------------------------- */
-@import "variables";
-/* Mixins CSS
--------------------------------------------------- */
-@import "mixins";
-/* Main CSS
--------------------------------------------------- */
-@import "main";
+@import "abstracts/functions.scss";
+@import "abstracts/mixins.scss";
+@import "abstracts/variables.scss";
 
-/* Loader CSS
--------------------------------------------------- */
-@import "loader";
+@import "base/typography.scss";
 
-/* Animations
--------------------------------------------------- */
-@import "animations";
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/main";
+@import "layout/footer";
 
-/* Breakpoints CSS
--------------------------------------------------- */
-@import "breakpoints";
+@import "components/loading";
+@import "components/animations";
+@import "components/buttons";
+@import "components/forms";
+
+@import "pages/home";
+
+@import "breakpoints/breakpoints";

@@ -62,7 +62,7 @@ export default function BlogSlider() {
                   is not close to being...
                 </p>
               </div>
-              <a className="btn btn-more" href="javascript:;">
+              <a className="btn btn-more" href="">
                 <span className="nav-label">Read More</span>
                 <span className="nav-arrow">
                   <i className="bi bi-arrow-right-short"></i>
@@ -90,7 +90,7 @@ export default function BlogSlider() {
                   is not close to being...
                 </p>
               </div>
-              <a className="btn btn-more" href="javascript:;">
+              <a className="btn btn-more" href="">
                 <span className="nav-label">Read More</span>
                 <span className="nav-arrow">
                   <i className="bi bi-arrow-right-short"></i>
@@ -116,7 +116,7 @@ export default function BlogSlider() {
                   is not close to being...
                 </p>
               </div>
-              <a className="btn btn-more" href="javascript:;">
+              <a className="btn btn-more" href="">
                 <span className="nav-label">Read More</span>
                 <span className="nav-arrow">
                   <i className="bi bi-arrow-right-short"></i>

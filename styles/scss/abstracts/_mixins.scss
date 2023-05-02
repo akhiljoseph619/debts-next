@@ -1,0 +1,8 @@
+// Transiton mixin
+@mixin list-none {
+  list-style: none;
+}
+
+@mixin transEase {
+  transition: 0.3s ease-out;
+}

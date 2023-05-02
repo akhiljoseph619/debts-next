@@ -9,7 +9,7 @@ export default function Footer() {
   const router = useRouter();
   return (
     <>
-      <footer className="footer-sec sec-top-pd-lg sec-btm-pd-md">
+      <footer className="footer-sec pt-4 pt-lg-6 pt-xl-7 pb-4 pb-lg-6 pb-xl-7">
         <Container fluid="xxl">
           <Row className="g-xxl-5">
             <Col xs="12" md="6" lg="4" xl="3">

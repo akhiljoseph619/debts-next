@@ -1,0 +1,28 @@
+// font size
+$font-size: "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+  "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33",
+  "34", "35", "36", "37", "38", "39", "40";
+
+@each $i in $font-size {
+  .fs-#{nth($i, 1)} {
+    font-size: #{nth($i, 1)}px;
+  }
+  @media screen and (min-width: 768px) {
+    .fs-md-#{nth($i, 1)} {
+      font-size: #{nth($i, 1)}px;
+    }
+  }
+  @media screen and (min-width: 991px) {
+    .fs-lg-#{nth($i, 1)} {
+      font-size: #{nth($i, 1)}px;
+    }
+  }
+}
+
+// font-weight
+// $font-weight:"100", "200", "300", "400", "500", "600", "700", "800" ;
+// @each $i in $font-weight{
+//   .fw-#{nth($i,1)}{
+//         font-weight:#{nth($i,1)}!important;
+//   }
+// }
