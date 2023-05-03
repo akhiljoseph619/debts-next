@@ -512,6 +512,40 @@
   .section-hd h3 {
     font-size: 2rem;
   }
+  .con-pro-item {
+    flex-direction: column;
+  }
+  .con-pro-item.con-reverse {
+    flex-direction: column;
+  }
+  .con-pro-item figure {
+    position: relative;
+    flex: 0 0 400px;
+    max-width: 400px;
+    margin: 0 auto 5rem;
+  }
+  .con-pro-item.con-reverse figure {
+    position: relative;
+    flex: 0 0 400px;
+    max-width: 400px;
+    margin: 0 auto 5rem;
+  }
+  .con-pro-item figure .con-d-shape {
+    width: 150px;
+  }
+  .con-pro-item .con-pro-body .con-pro-hd h3 {
+    font-size: 2rem;
+  }
+  .talk-us-cover figure {
+    flex: 0 0 350px;
+    max-width: 350px;
+  }
+  .talk-us-cover .talk-us-body {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .talk-us-cover .talk-us-con h3 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -610,6 +644,23 @@
   }
   .copyright-cover {
     margin-top: 1rem;
+  }
+  .ins-banner-cover {
+    min-height: 300px;
+  }
+  .ins-banner-hd h1 {
+    font-size: 2.25rem;
+  }
+  .talk-us-cover {
+    flex-direction: column;
+  }
+  .talk-us-cover figure {
+    flex: 0 0 300px;
+    max-width: 300px;
+    margin: 0 auto 2rem;
+  }
+  .talk-us-cover .talk-us-body {
+    padding: 1rem 1rem;
   }
 }
 

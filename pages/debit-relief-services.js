@@ -67,7 +67,7 @@ export default function ConsumerProposal() {
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <img src="images/con-pro-item-02.jpg" alt="Image" />
+                    <img src="images/debt-relief-item-01.jpg" alt="Image" />
                   </div>
                   <div className="particle-cover">
                     <div className="particle-item">
@@ -143,7 +143,7 @@ export default function ConsumerProposal() {
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <img src="images/con-pro-item-02.jpg" alt="Image" />
+                    <img src="images/debt-relief-item-02.jpg" alt="Image" />
                   </div>
                   <div className="particle-cover">
                     <div className="particle-item">
@@ -207,7 +207,7 @@ export default function ConsumerProposal() {
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <img src="images/con-pro-item-02.jpg" alt="Image" />
+                    <img src="images/debt-relief-item-03.jpg" alt="Image" />
                   </div>
                   <div className="particle-cover">
                     <div className="particle-item">
