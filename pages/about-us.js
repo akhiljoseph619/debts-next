@@ -27,7 +27,9 @@ export default function AboutUs() {
                 <div className="page-intro-hd">
                   <h2>
                     Whatever your situation, there is a <br />
-                    <span>debt-relief option for you.</span>
+                    <span className="fc-100 fw-500">
+                      debt-relief option for you.
+                    </span>
                   </h2>
                 </div>
                 <h5>
@@ -99,8 +101,7 @@ export default function AboutUs() {
               >
                 <div className="welcome-con-hd">
                   <h1>
-                    <span>The right choice at the</span>
-                    right time.
+                    <span>The right choice at the</span> right time.
                   </h1>
                 </div>
                 <h4>
@@ -308,7 +309,25 @@ export default function AboutUs() {
         </Container>
       </section>
 
-      <BookAssessment />
+      <section
+        className="book-sec ins-book-sec py-4 py-lg-5 py-xl-6"
+        data-aos="fadeIn"
+      >
+        <div className="book-bg-graphics">
+          <div className="particle-item part-item-01">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 32 32"
+              className="particle-svg"
+            >
+              <path d="M25.1 29.2L6.9 15.6 25.1 2.8z" />
+            </svg>
+          </div>
+        </div>
+        <BookAssessment />
+      </section>
     </>
   );
 }

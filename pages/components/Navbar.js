@@ -65,7 +65,7 @@ export default function navbarMain() {
                 <span className="nav-icon">
                   <i className="bi bi-telephone-fill"></i>
                 </span>
-                (416) 650-1100
+                905-230-3328
               </Link>
             </li>
             <li className="nav-item">

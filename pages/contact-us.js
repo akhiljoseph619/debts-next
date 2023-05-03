@@ -62,7 +62,7 @@ export default function ContactUs() {
                 data-aos-duration="1000"
               >
                 <div className="section-hd">
-                  <h1 className="fc-100">Get in touch</h1>
+                  <h1 className="fc-100 fw-500">Get in touch</h1>
                 </div>
                 <ul>
                   <li>
@@ -103,7 +103,25 @@ export default function ContactUs() {
         </div>
       </section>
 
-      <BookAssessment />
+      <section
+        className="book-sec ins-book-sec py-4 py-lg-5 py-xl-6"
+        data-aos="fadeIn"
+      >
+        <div className="book-bg-graphics">
+          <div className="particle-item part-item-01">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 32 32"
+              className="particle-svg"
+            >
+              <path d="M25.1 29.2L6.9 15.6 25.1 2.8z" />
+            </svg>
+          </div>
+        </div>
+        <BookAssessment />
+      </section>
     </>
   );
 }

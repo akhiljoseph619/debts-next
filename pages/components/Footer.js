@@ -90,7 +90,7 @@ export default function Footer() {
                   It's going to be okay. Book your free consultation today.
                   We'll do the rest.
                 </p>
-                <Link className="btn btn-book" href="">
+                <Link className="btn btn-shine btn-book" href="/contact-us">
                   Book Now
                 </Link>
               </div>
@@ -100,12 +100,12 @@ export default function Footer() {
                 <h3>Our Services</h3>
                 <ul className="ft-links">
                   <li className="ft-item">
-                    <Link className="ft-nav" href="">
+                    <Link className="ft-nav" href="/consumer-proposal">
                       Consumer Proposal
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="">
+                    <Link className="ft-nav" href="/bankruptcy">
                       Bankruptcy
                     </Link>
                   </li>
@@ -115,7 +115,7 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="">
+                    <Link className="ft-nav" href="/credit-counselling">
                       Credit Counselling
                     </Link>
                   </li>
@@ -127,7 +127,7 @@ export default function Footer() {
                 <h3>Quick Links</h3>
                 <ul className="ft-links">
                   <li className="ft-item">
-                    <Link className="ft-nav" href="">
+                    <Link className="ft-nav" href="/about-us">
                       About Us
                     </Link>
                   </li>
@@ -142,7 +142,7 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="">
+                    <Link className="ft-nav" href="/contact-us">
                       Contact Us
                     </Link>
                   </li>
@@ -176,7 +176,7 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li className="btm-item">
-                    <Link className="btm-link" href="">
+                    <Link className="btm-link" href="/contact-us">
                       Contact Us
                     </Link>
                   </li>

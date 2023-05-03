@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import TalkToUs from "./components/TalkToUs";
 import BookAssessment from "./components/BookAssessment";
 
 export default function ConsumerProposal() {
@@ -75,7 +76,7 @@ export default function ConsumerProposal() {
       </section>
 
       <section
-        className="welcome-sec pt-4 pt-xl-5 pb-4 pb-xl-5"
+        className="con-pro-sec pt-4 pt-xl-5 pb-4 pb-xl-5"
         data-aos="fadeIn"
       >
         <Container fluid="xxl">
@@ -144,7 +145,7 @@ export default function ConsumerProposal() {
       </section>
 
       <section
-        className="welcome-sec pt-4 pt-xl-5 pb-4 pb-xl-5"
+        className="con-pro-sec pt-4 pt-xl-5 pb-4 pb-xl-5"
         data-aos="fadeIn"
       >
         <Container fluid="xxl">
@@ -339,34 +340,27 @@ export default function ConsumerProposal() {
         </Container>
       </section>
 
-      <section className="talk-sec" data-aos="fadeIn">
-        <Container fluid="xxl">
-          <Row>
-            <Col xs="12">
-              <div className="talk-us-cover">
-                <figure>
-                  <img src="images/talk-us.png" alt="Image" />
-                </figure>
-                <div className="talk-us-body">
-                  <div className="talk-us-con">
-                    <h3>Talk to Us</h3>
-                    <h4>
-                      Talk to us about the services we offer for Debt
-                      Management, Consumer Proposals and Bankruptcy.
-                    </h4>
-                    <p>
-                      There is a path that's right for you. Together, we will
-                      find it.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <TalkToUs />
 
-      <BookAssessment />
+      <section
+        className="book-sec ins-book-sec py-4 py-lg-5 py-xl-6"
+        data-aos="fadeIn"
+      >
+        <div className="book-bg-graphics">
+          <div className="particle-item part-item-01">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 32 32"
+              className="particle-svg"
+            >
+              <path d="M25.1 29.2L6.9 15.6 25.1 2.8z" />
+            </svg>
+          </div>
+        </div>
+        <BookAssessment />
+      </section>
     </>
   );
 }

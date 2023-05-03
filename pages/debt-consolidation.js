@@ -12,7 +12,7 @@ export default function ConsumerProposal() {
             <Container fluid="xxl">
               <div className="ins-banner-hd">
                 <h1>
-                  <span className="first-word">Debt Relief</span>
+                  <span className="first-word">Debt Consolidation</span>
                 </h1>
               </div>
             </Container>
@@ -21,39 +21,7 @@ export default function ConsumerProposal() {
       </section>
 
       <section
-        className="page-intro-sec pt-5 pt-xl-6 pb-4 pb-xl-5"
-        data-aos="fadeIn"
-      >
-        <Container fluid="xxl">
-          <Row>
-            <Col xs="12">
-              <div className="page-intro-cover">
-                <div className="page-intro-hd">
-                  <h2>
-                    What's the best debt relief <br />
-                    <span className="fc-100 fw-500">
-                      option in Ontario for you?
-                    </span>
-                  </h2>
-                </div>
-                <p>
-                  There are some excellent debt relief options in Ontario and
-                  there are others that can lead to increased financial strain.
-                </p>
-                <p>
-                  At David Sklar & Associates we're committed to helping you out
-                  of debt and always have your best interests at heart. We'll
-                  help you choose the best debt relief solution for your
-                  situation.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section
-        className="con-pro-sec pt-4 pt-xl-5 pb-4 pb-xl-5"
+        className="con-pro-sec pt-4 pt-xl-6 pb-4 pb-xl-5"
         data-aos="fadeIn"
       >
         <Container fluid="xxl">
@@ -67,7 +35,7 @@ export default function ConsumerProposal() {
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <img src="images/con-pro-item-02.jpg" alt="Image" />
+                    <img src="images/debt-con-item-01.jpg" alt="Image" />
                   </div>
                   <div className="particle-cover">
                     <div className="particle-item">
@@ -93,33 +61,20 @@ export default function ConsumerProposal() {
                   data-aos-duration="1000"
                 >
                   <div className="con-pro-hd">
-                    <h3>Filing a consumer proposal</h3>
+                    <h3>Debt Consolidation options in Ontario.</h3>
                   </div>
                   <p>
-                    A consumer proposal is a way of consolidating all your debts
-                    and offering to pay your creditors a smaller percentage of
-                    what you owe them. It's a legal agreement you make with the
-                    help of a Licensed Insolvency Trustee and is a federally
-                    regulated program.
-                  </p>
-                  <p>
                     <strong>
-                      It also has several advantages over bankruptcy: you get to
-                      keep all your assets, freeze interest charges, stop
-                      collection calls, and prevent creditors from taking legal
-                      action against you.
+                      There are two types of debt consolidation in Ontario:
+                      high-interest debt consolidation loans and interest-free
+                      consumer proposals.
                     </strong>
                   </p>
                   <p>
-                    Once your consumer proposal is accepted, you will make one
-                    low monthly payment to your Licensed Insolvency Trustee, who
-                    will distribute the funds to all your creditors.
-                  </p>
-                  <p>
-                    <strong>
-                      Your monthly payments will be based on your income,
-                      expenses, assets, and what you can afford to pay.
-                    </strong>
+                    Many people we meet know about debt consolidation loans but
+                    have never heard about an interest-free form of debt
+                    consolidation, called a Consumer Proposal, a better way to
+                    consolidate your debt.
                   </p>
                 </div>
               </div>
@@ -143,7 +98,7 @@ export default function ConsumerProposal() {
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <img src="images/con-pro-item-02.jpg" alt="Image" />
+                    <img src="images/debt-con-item-02.jpg" alt="Image" />
                   </div>
                   <div className="particle-cover">
                     <div className="particle-item">
@@ -169,21 +124,20 @@ export default function ConsumerProposal() {
                   data-aos-duration="1000"
                 >
                   <div className="con-pro-hd">
-                    <h3>Declaring personal bankruptcy</h3>
+                    <h3>Have you applied for a loan and been denied?</h3>
                   </div>
                   <p>
-                    Personal bankruptcy should never be entered into lightly -
-                    you should consider it only after consulting with a Licensed
-                    Insolvency Trustee. We've helped thousands of clients weigh
-                    the pros and cons of declaring personal bankruptcy and, when
-                    needed, navigate this process.
+                    We do not provide loans. If you're looking for a loan, we
+                    suggest you speak to your bank first to see if you qualify
+                    for one. For many Canadians, debt consolidation loans can
+                    lead to even more financial stress. High-interest loans and
+                    hidden fees could lead to payments that exceed the original
+                    debt.
                   </p>
                   <p>
-                    When you declare personal bankruptcy in Canada, yo're
-                    announcing to the courts and creditors that you cannot pay
-                    your debts as they come due and have insufficient assets to
-                    cover them. By declaring personal bankruptcy, you get a
-                    fresh start.
+                    A Consumer Proposal is a federally regulated program
+                    designed to help Canadians reduce and eliminate debt without
+                    loans and rebuild their financial security.
                   </p>
                 </div>
               </div>
@@ -207,7 +161,7 @@ export default function ConsumerProposal() {
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <img src="images/con-pro-item-02.jpg" alt="Image" />
+                    <img src="images/debt-con-item-03.jpg" alt="Image" />
                   </div>
                   <div className="particle-cover">
                     <div className="particle-item">
@@ -233,26 +187,17 @@ export default function ConsumerProposal() {
                   data-aos-duration="1000"
                 >
                   <div className="con-pro-hd">
-                    <h3>Applying for a debt consolidation loan</h3>
+                    <h3>
+                      David explains how you can consolidate your debts without
+                      a loan, Interest-free.
+                    </h3>
                   </div>
                   <p>
-                    A debt consolidation loan is an option for individuals who
-                    qualify for a loan. This loan usually comes from a bank or
-                    credit union; David Sklar & Associates does not provide
-                    loans. It's most often used to pay down credit cards and
-                    similar consumer debt. Generally, it offers a lower interest
-                    rate than the original debts.
-                  </p>
-                  <p>
-                    However, not everyone can qualify for a low-interest loan.
-                    Many people with low credit scores often turn to third-party
-                    lenders that can charge interest rates that reach almost
-                    60%.
-                  </p>
-                  <p>
-                    While getting a consolidation loan to pay off debt quickly
-                    may seem like a good idea, if the interest on the loan is
-                    too high, there could be long-term adverse effects.
+                    Consolidating debt with a loan is an option for individuals
+                    that can qualify for a low-interest loan, from a creditable
+                    financial institution. However, for those unable to qualify
+                    for a low-interest loan, consolidating your debt with a
+                    consumer proposal may be a better option.
                   </p>
                 </div>
               </div>
