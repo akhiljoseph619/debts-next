@@ -39,20 +39,12 @@ export default function AboutUs() {
                   services.
                 </h5>
                 <p>
-                  They offer a range of debt solutions such as debt
-                  consolidation loans, debt settlement programs, debt management
-                  plans, and bankruptcy assistance to help individuals and
-                  businesses struggling with debt. Debsolutions Group aims to
-                  help their clients become debt-free as quickly and efficiently
-                  as possible.
-                </p>
-                <p>
-                  They offer a range of debt solutions such as debt
-                  consolidation loans, debt settlement programs, debt management
-                  plans, and bankruptcy assistance to help individuals and
-                  businesses struggling with debt. Debsolutions Group aims to
-                  help their clients become debt-free as quickly and efficiently
-                  as possible.
+                  We offer a range of debt solutions such as debt consolidation
+                  loans, debt settlement programs, debt management plans, and
+                  bankruptcy assistance to help individuals and businesses
+                  struggling with debt. Debsolutions Group aims to help their
+                  clients become debt-free as quickly and efficiently as
+                  possible.
                 </p>
               </div>
             </Col>
