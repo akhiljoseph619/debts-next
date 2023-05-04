@@ -1,9 +1,9 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { Container, Row, Col } from "react-bootstrap";
-import "bootstrap-icons/font/bootstrap-icons.css";
-import { Facebook, Instagram, Twitter, Whatsapp } from "react-bootstrap-icons";
-import ScrollToTopButton from "./ScrollToTopButton";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import { Facebook, Instagram, Twitter, Whatsapp } from 'react-bootstrap-icons';
+import ScrollToTopButton from './ScrollToTopButton';
 
 export default function Footer() {
   const router = useRouter();

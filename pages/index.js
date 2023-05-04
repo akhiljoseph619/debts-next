@@ -1,13 +1,13 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
-import SliderProcess from "./components/processSlider";
-import BlogSlider from "./components/blogSlider";
-import BookAssessment from "./components/BookAssessment";
-import { useRouter } from "next/router";
-import "aos/dist/aos.css";
+import React, { useEffect, useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
+import SliderProcess from './components/processSlider';
+import BlogSlider from './components/blogSlider';
+import BookAssessment from './components/BookAssessment';
+import { useRouter } from 'next/router';
+import 'aos/dist/aos.css';
 
 export default function Home() {
   const router = useRouter();
@@ -25,7 +25,7 @@ export default function Home() {
 
   // AOS animation
   useEffect(() => {
-    import("aos").then((AOS) => {
+    import('aos').then((AOS) => {
       AOS.init();
     });
   }, []);
@@ -127,7 +127,7 @@ export default function Home() {
               >
                 <div className="welcome-con-hd">
                   <h1>
-                    Whatever your situation, there is a{" "}
+                    Whatever your situation, there is a{' '}
                     <span>debt-relief option for you.</span>
                   </h1>
                 </div>

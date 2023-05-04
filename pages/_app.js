@@ -1,16 +1,22 @@
-import Head from "next/head";
-import "bootstrap/dist/css/bootstrap.css";
-import "@/styles/scss/style.scss";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Head from 'next/head';
+import 'bootstrap/dist/css/bootstrap.css';
+import '@/styles/scss/style.scss';
+import PreLoader from './components/PreLoader';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
-import React, { useState, useEffect } from "react";
-import { useRouter } from "next/router";
-import PreLoader from "./components/preLoader";
+import { useRouter } from 'next/router';
+import React, { useState, useEffect, useInsertionEffect } from 'react';
 
 export default function App({ Component, pageProps, isHome }) {
   // Preloader
   const router = useRouter();
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2500);
+  });
 
   return (
     <>
@@ -21,9 +27,15 @@ export default function App({ Component, pageProps, isHome }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Component {...pageProps} />
-      <Footer />
+      {isLoading ? (
+        <PreLoader />
+      ) : (
+        <>
+          <Navbar />
+          <Component {...pageProps} />
+          <Footer />
+        </>
+      )}
     </>
   );
 }

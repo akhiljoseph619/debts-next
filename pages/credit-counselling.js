@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import TalkToUs from "./components/TalkToUs";
-import BookAssessment from "./components/BookAssessment";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import TalkToUs from './components/TalkToUs';
+import BookAssessment from './components/BookAssessment';
 
 export default function ConsumerProposal() {
   return (

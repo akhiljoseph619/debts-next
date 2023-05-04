@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import TalkToUs from "./components/TalkToUs";
-import BookAssessment from "./components/BookAssessment";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import TalkToUs from './components/TalkToUs';
+import BookAssessment from './components/BookAssessment';
 
 export default function ConsumerProposal() {
   return (
@@ -31,7 +31,7 @@ export default function ConsumerProposal() {
               <div className="page-intro-cover">
                 <div className="page-intro-hd">
                   <h2>
-                    Consumer proposals as a debt settlement plan in canada{" "}
+                    Consumer proposals as a debt settlement plan in canada{' '}
                     <br />
                     <span className="fc-100 fw-500">
                       What are Consumer Proposals?

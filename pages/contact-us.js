@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { Container, Row, Col } from "react-bootstrap";
-import BookAssessment from "./components/BookAssessment";
+import React from 'react';
+import Link from 'next/link';
+import { Container, Row, Col } from 'react-bootstrap';
+import BookAssessment from './components/BookAssessment';
 
 export default function ContactUs() {
   return (
@@ -83,7 +83,7 @@ export default function ContactUs() {
                     <span className="icon">
                       <i className="bi bi-envelope-fill"></i>
                     </span>
-                    Email:{" "}
+                    Email:{' '}
                     <Link href="mailto:info@debtsolutionsgroup.ca">
                       info@debtsolutionsgroup.ca
                     </Link>

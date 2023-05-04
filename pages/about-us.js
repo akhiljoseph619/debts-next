@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import BookAssessment from "./components/BookAssessment";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import BookAssessment from './components/BookAssessment';
 
 export default function AboutUs() {
   return (
@@ -128,7 +128,7 @@ export default function AboutUs() {
             <Col xs="12">
               <div className="section-hd">
                 <h3>
-                  <span className="fc-100 fw-500">What should you do now?</span>{" "}
+                  <span className="fc-100 fw-500">What should you do now?</span>{' '}
                   <br />
                   Contact us, Faster than you think, you could…
                 </h3>
