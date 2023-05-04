@@ -98,7 +98,7 @@ export default function ContactUs() {
       <section className="map-sec">
         <div className="map-cover">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5322.511461245728!2d58.380548161444494!3d23.58848815999854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ffa8879aafc9%3A0xdb53876d0d79a72c!2sMuscat%2C%20Oman!5e0!3m2!1sen!2sin!4v1683050894591!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.269221249729!2d-79.7282233!3d43.6633704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b15c7819e588d%3A0x4715e93ad204e202!2sDebt%20Solutions%20Group!5e0!3m2!1sen!2sca!4v1683202797940!5m2!1sen!2sca"
             allowFullScreen
           ></iframe>
         </div>

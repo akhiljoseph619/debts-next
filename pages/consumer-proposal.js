@@ -58,12 +58,6 @@ export default function ConsumerProposal() {
                   bankrupt. In Canada, the consumer debt proposals are the only
                   program for debt settlement approved by the government.
                 </p>
-                <p>
-                  A consumer proposal plan offers debt relief for Canadians
-                  struggling with paying monthly debts while avoiding going
-                  bankrupt. In Canada, the consumer debt proposals are the only
-                  program for debt settlement approved by the government.
-                </p>
               </div>
             </Col>
           </Row>

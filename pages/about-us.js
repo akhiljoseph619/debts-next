@@ -34,7 +34,7 @@ export default function AboutUs() {
                   </h2>
                 </div>
                 <h5>
-                  Debtsolutions Group is a debt solutions company based in
+                  Debit Solutions Group is a debt solutions company based in
                   Canada that specializes in debt management and debt relief
                   services.
                 </h5>
@@ -111,11 +111,11 @@ export default function AboutUs() {
                   help. That's where we come in.
                 </h4>
                 <p>
-                  Debt solutions Solutions Services Ltd. offers solutions to
-                  your financial burdens that are tailored to be as unique as
-                  you are. We will first educate you about the solutions
-                  available, and then we'll help you make the right choices to
-                  get your finances - and your life - back on track.
+                  Debt Solutions Services Ltd. offers solutions to your
+                  financial burdens that are tailored to be as unique as you
+                  are. We will first educate you about the solutions available,
+                  and then we'll help you make the right choices to get your
+                  finances - and your life - back on track.
                 </p>
                 <p>
                   We know right now it feels like the world is on your
