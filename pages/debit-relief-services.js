@@ -12,8 +12,9 @@ export default function ConsumerProposal() {
             <Container fluid="xxl">
               <div className="ins-banner-hd">
                 <h1>
-                  <span className="first-word">Debt Relief</span>
+                  <span className="first-word">Debt Relief Services</span>
                 </h1>
+                <h4>Forgives up to 90 percent of your liability</h4>
               </div>
             </Container>
           </div>
@@ -30,21 +31,33 @@ export default function ConsumerProposal() {
               <div className="page-intro-cover">
                 <div className="page-intro-hd">
                   <h2>
-                    What's the best debt relief <br />
                     <span className="fc-100 fw-500">
-                      option in Ontario for you?
+                      What's the best debt relief option for you?
                     </span>
                   </h2>
                 </div>
                 <p>
-                  There are some excellent debt relief options in Ontario and
-                  there are others that can lead to increased financial strain.
+                  There are some great debt relief solutions available, as well
+                  as others that may cause more financial difficulty.
                 </p>
                 <p>
-                  At David Sklar & Associates we're committed to helping you out
-                  of debt and always have your best interests at heart. We'll
-                  help you choose the best debt relief solution for your
-                  situation.
+                  At our company, we are dedicated to assisting you in becoming
+                  debt-free and always prioritize your well-being. We will work
+                  with you to determine the most appropriate debt relief
+                  alternative for your specific circumstances.
+                </p>
+                <p>
+                  Opting for a consumer proposal involves consolidating all of
+                  your debts and proposing to pay your creditors a reduced
+                  percentage of the amount owed. It's a legal agreement that is
+                  facilitated by a Licensed Insolvency Trustee and is regulated
+                  by the federal government.
+                </p>
+                <p>
+                  Compared to bankruptcy, a consumer proposal provides several
+                  benefits: you can retain possession of all your assets, halt
+                  interest charges, put a stop to collection calls, and prevent
+                  creditors from taking legal action against you.
                 </p>
               </div>
             </Col>
@@ -96,30 +109,23 @@ export default function ConsumerProposal() {
                     <h3>Filing a consumer proposal</h3>
                   </div>
                   <p>
-                    A consumer proposal is a way of consolidating all your debts
-                    and offering to pay your creditors a smaller percentage of
-                    what you owe them. It's a legal agreement you make with the
-                    help of a Licensed Insolvency Trustee and is a federally
-                    regulated program.
+                    Before submitting a consumer proposal, it's important to
+                    work with a Licensed Insolvency Trustee to determine if it's
+                    the right solution for your financial situation. We will
+                    review your debts, income, expenses, and assets to determine
+                    if a consumer proposal is a viable option for you. We will
+                    also help you develop a repayment plan that is tailored to
+                    your specific financial situation and that will help you
+                    achieve your debt repayment goals.
                   </p>
                   <p>
-                    <strong>
-                      It also has several advantages over bankruptcy: you get to
-                      keep all your assets, freeze interest charges, stop
-                      collection calls, and prevent creditors from taking legal
-                      action against you.
-                    </strong>
-                  </p>
-                  <p>
-                    Once your consumer proposal is accepted, you will make one
-                    low monthly payment to your Licensed Insolvency Trustee, who
-                    will distribute the funds to all your creditors.
-                  </p>
-                  <p>
-                    <strong>
-                      Your monthly payments will be based on your income,
-                      expenses, assets, and what you can afford to pay.
-                    </strong>
+                    It's worth noting that a consumer proposal will affect your
+                    credit score and will appear on your credit report for a
+                    period of time. However, it is generally seen as less
+                    damaging to your credit score than filing for bankruptcy.
+                    Additionally, once you have successfully completed your
+                    consumer proposal, you will be able to start rebuilding your
+                    credit and working towards a more stable financial future.
                   </p>
                 </div>
               </div>
@@ -172,18 +178,19 @@ export default function ConsumerProposal() {
                     <h3>Declaring personal bankruptcy</h3>
                   </div>
                   <p>
-                    Personal bankruptcy should never be entered into lightly -
-                    you should consider it only after consulting with a Licensed
-                    Insolvency Trustee. We've helped thousands of clients weigh
-                    the pros and cons of declaring personal bankruptcy and, when
-                    needed, navigate this process.
+                    Declaring personal bankruptcy is not a decision to be made
+                    lightly and should only be done after consulting with a
+                    Licensed Insolvency Trustee. At our company, we have
+                    assisted countless clients in assessing the advantages and
+                    disadvantages of declaring personal bankruptcy and, if
+                    necessary, guiding them through the process.
                   </p>
                   <p>
-                    When you declare personal bankruptcy in Canada, yo're
-                    announcing to the courts and creditors that you cannot pay
-                    your debts as they come due and have insufficient assets to
-                    cover them. By declaring personal bankruptcy, you get a
-                    fresh start.
+                    When you file for personal bankruptcy in Canada, you are
+                    informing the courts and creditors that you are unable to
+                    pay off your debts on time and have insufficient assets to
+                    do so. Declaring personal bankruptcy allows you to begin
+                    anew.
                   </p>
                 </div>
               </div>
@@ -236,23 +243,25 @@ export default function ConsumerProposal() {
                     <h3>Applying for a debt consolidation loan</h3>
                   </div>
                   <p>
-                    A debt consolidation loan is an option for individuals who
-                    qualify for a loan. This loan usually comes from a bank or
-                    credit union; David Sklar & Associates does not provide
-                    loans. It's most often used to pay down credit cards and
-                    similar consumer debt. Generally, it offers a lower interest
+                    A debt consolidation loan can be a viable option for those
+                    who are eligible to apply for a loan from a bank or credit
+                    union. This loan is typically used to pay off consumer debt
+                    like credit cards, and often comes with a lower interest
                     rate than the original debts.
                   </p>
                   <p>
-                    However, not everyone can qualify for a low-interest loan.
-                    Many people with low credit scores often turn to third-party
-                    lenders that can charge interest rates that reach almost
-                    60%.
+                    However, not everyone may qualify for a low-interest loan,
+                    especially those with poor credit scores. In such cases,
+                    some individuals may consider turning to third-party lenders
+                    who may charge exorbitant interest rates that can go up to
+                    almost 60%.
                   </p>
                   <p>
-                    While getting a consolidation loan to pay off debt quickly
-                    may seem like a good idea, if the interest on the loan is
-                    too high, there could be long-term adverse effects.
+                    While consolidating debt through a loan may seem like a
+                    quick solution, it's important to consider the long-term
+                    impact of the loan's interest rate. If the interest rate is
+                    too high, it may lead to further financial strain in the
+                    future.
                   </p>
                 </div>
               </div>

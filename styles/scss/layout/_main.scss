@@ -1280,6 +1280,13 @@ input[type="number"]::-webkit-inner-spin-button {
       }
     }
   }
+  h4 {
+    color: var(--white);
+    font-size: 1.125rem;
+    font-weight: var(--font-weight-medium);
+    margin: 0;
+    text-transform: uppercase;
+  }
 }
 
 .page-intro-cover {
@@ -1498,12 +1505,13 @@ input[type="number"]::-webkit-inner-spin-button {
 .con-pro-item {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   figure {
     position: relative;
     flex: 0 0 425px;
     max-width: 425px;
     margin-right: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     .con-item-img {
       border-radius: 0 0 250px 250px;
       overflow: hidden;
@@ -1540,7 +1548,7 @@ input[type="number"]::-webkit-inner-spin-button {
       position: absolute;
       left: 0;
       bottom: 0;
-      width: 250px;
+      width: 200px;
       transform: translate(-50%, 25%);
       img {
         width: 100%;
@@ -1549,6 +1557,7 @@ input[type="number"]::-webkit-inner-spin-button {
   }
   .con-pro-body {
     flex: 1 0 0%;
+    padding-top: 4rem;
     .con-pro-hd {
       max-width: 750px;
       margin-bottom: 2rem;

@@ -651,6 +651,9 @@
   .ins-banner-hd h1 {
     font-size: 2.25rem;
   }
+  .ins-banner-hd h4 {
+    font-size: 1rem;
+  }
   .talk-us-cover {
     flex-direction: column;
   }
@@ -661,6 +664,15 @@
   }
   .talk-us-cover .talk-us-body {
     padding: 1rem 1rem;
+  }
+  .con-pro-item figure {
+    display: none;
+  }
+  .con-pro-item .con-pro-body {
+    padding-top: 0;
+  }
+  .require-item figure .req-d-shape {
+    width: 50px;
   }
 }
 

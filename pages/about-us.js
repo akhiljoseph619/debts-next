@@ -13,6 +13,7 @@ export default function AboutUs() {
                 <h1>
                   <span className="first-word">About</span> Company
                 </h1>
+                <h4>Forgives up to 90 percent of your liability</h4>
               </div>
             </Container>
           </div>

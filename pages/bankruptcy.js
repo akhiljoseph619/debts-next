@@ -14,6 +14,7 @@ export default function Bankruptcy() {
                 <h1>
                   <span className="first-word">Bankruptcy</span>
                 </h1>
+                <h4>Forgives up to 90 percent of your liability</h4>
               </div>
             </Container>
           </div>
@@ -30,44 +31,26 @@ export default function Bankruptcy() {
               <div className="page-intro-cover">
                 <div className="page-intro-hd">
                   <h2>
-                    Consumer proposals as a debt settlement plan in canada{" "}
-                    <br />
                     <span className="fc-100 fw-500">
-                      What are Consumer Proposals?
+                      Get a fresh financial start with bankruptcy
                     </span>
                   </h2>
                 </div>
-                <h5>
-                  As an honest but unfortunate debtor, you may choose to use the
-                  legal process of bankruptcy, regulated by the Act, to obtain a
-                  discharge from your debts (subject to reasonable conditions).
-                  Declaring bankruptcy means that your secured creditors cannot
-                  take legal steps to recover what you owe them, such as seizing
-                  your property or garnisheeing your wages.
-                </h5>
                 <p>
-                  If you owe more than $1,000 and have carefully reviewed all
-                  your options, declaring bankruptcy may be the right choice to
-                  make.
+                  If you're an honest debtor who has fallen on hard times, you
+                  can opt for the legal process of bankruptcy, which is overseen
+                  by the Act. This process allows you to obtain a discharge from
+                  your debts, subject to certain conditions. By declaring
+                  bankruptcy, your secured creditors are prevented from taking
+                  legal action to collect what you owe them, such as seizing
+                  your assets or garnishing your wages.
                 </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section className="pt-4 pt-xl-5 pb-4 pb-xl-5">
-        <Container>
-          <Row>
-            <Col xs="12">
-              <div className="bankruptcy-video">
-                <div className="ratio ratio-16x9">
-                  <iframe
-                    src="https://www.youtube.com/embed/UrBj3TFSf20"
-                    title="YouTube video player"
-                    allowFullScreen
-                  ></iframe>
-                </div>
+                <p>
+                  If you have debts exceeding $1,000 and have thoroughly
+                  considered all your alternatives, filing for bankruptcy could
+                  be the appropriate decision to take.
+                </p>
+                <p></p>
               </div>
             </Col>
           </Row>
@@ -115,27 +98,34 @@ export default function Bankruptcy() {
                   data-aos-duration="1000"
                 >
                   <p>
-                    Perhaps the most common question those considering
-                    bankruptcies ask is, “Will I lose all my assets?” Happily,
-                    the answer is no. There are several exemptions from seizure.
-                    They are:
+                    One of the most common questions asked by those
+                    contemplating bankruptcy is, "Will I lose all of my assets?"
+                    Fortunately, the answer is no. There are several exemptions
+                    from seizure, including:
                   </p>
                   <ul>
-                    <li>Household furnishings to a value of $13,150</li>
-                    <li>Personal effects to a value of $5,650</li>
-                    <li>Tools of trade to a value of $11,300</li>
-                    <li>Motor vehicles to a value of $6,600</li>
-                    <li>Farmers' business assets to a value of $29,100</li>
+                    <li>Household furnishings valued up to $13,150</li>
+                    <li>Personal effects valued up to $5,650</li>
+                    <li>Tools of trade valued up to $11,300</li>
+                    <li>Motor vehicles valued up to $6,600</li>
+                    <li>Farmers' business assets valued up to $29,100</li>
                     <li>Certain life insurance policies</li>
                     <li>Most pensions</li>
                     <li>Certain RRSPs</li>
                   </ul>
                   <p>
-                    If you're involved in a close financial relationship, it is
-                    possible to file a joint assignment that will be dealt with
-                    as one file. Your debts must be substantially the same, and
-                    the trustee must believe it is in the best interest of all
-                    parties.
+                    In case you have a close financial relationship with someone
+                    else, it is possible to file a joint assignment that will be
+                    treated as a single file. However, your debts must be
+                    similar in nature, and the trustee must determine that it is
+                    beneficial for all parties involved.
+                  </p>
+                  <p>
+                    We offer a range of services, including credit counseling,
+                    consumer proposals, and bankruptcy. Regardless of your
+                    financial situation, there is a path that's suitable for
+                    you, and we are here to assist you in finding it. Let's work
+                    together to determine the best course of action for you.
                   </p>
                 </div>
               </div>

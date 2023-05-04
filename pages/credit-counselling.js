@@ -14,6 +14,7 @@ export default function ConsumerProposal() {
                 <h1>
                   <span className="first-word">Credit Counselling</span>
                 </h1>
+                <h4>Forgives up to 90 percent of your liability</h4>
               </div>
             </Container>
           </div>
@@ -64,20 +65,21 @@ export default function ConsumerProposal() {
                     <h3>What is credit counselling?</h3>
                   </div>
                   <p>
-                    Credit counselling gives you the knowledge and resources to
-                    make better financial decisions and avoid debt problems. In
-                    Ontario (and elsewhere in Canada), credit counselling is
-                    mandatory after a successful discharge from a bankruptcy or
-                    consumer proposal.
+                    Credit counselling is a valuable tool for anyone seeking to
+                    improve their financial literacy and avoid future debt
+                    issues. Even if you haven't experienced a bankruptcy or
+                    consumer proposal, credit counselling can help you learn how
+                    to properly manage your money and make smart financial
+                    decisions.
                   </p>
                   <p>
-                    Understanding how to properly manage your money may seem
-                    intimidating, especially if you've been overwhelmed by debt
-                    problems for many years. It can be tough to know where to
-                    start.
-                  </p>
-                  <p>
-                    <strong>That's where we come in!</strong>
+                    At our organization, we're committed to helping Canadians
+                    gain control of their finances through credit counselling.
+                    Our experienced counsellors will work with you to create a
+                    personalized financial plan that fits your unique situation
+                    and goals. We'll provide you with the knowledge and
+                    resources you need to make informed financial decisions and
+                    achieve long-term financial stability.
                   </p>
                 </div>
               </div>
@@ -101,7 +103,7 @@ export default function ConsumerProposal() {
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <img src="images/credit-coun-item-01.jpg" alt="Image" />
+                    <img src="images/credit-coun-item-02.jpg" alt="Image" />
                   </div>
                   <div className="particle-cover">
                     <div className="particle-item">
@@ -130,17 +132,20 @@ export default function ConsumerProposal() {
                     <h3>Financial guidance from licensed professionals</h3>
                   </div>
                   <p>
-                    At David Sklar and Associates, our team of Licensed
-                    Insolvency Trustees has provided credit counselling in
-                    Ontario since 1997. They're patient, understanding and
-                    passionate about teaching people how to take control of
-                    their money.
+                    Our team has been providing credit counselling services in
+                    Canada. We understand that managing money can be
+                    overwhelming, especially when you've been struggling with
+                    debt for a long time. That's why our team is patient,
+                    understanding, and passionate about helping people take
+                    control of their finances.
                   </p>
                   <p>
-                    By working with us, you'll acquire first-class money
-                    management skills. With boldness and confidence, you'll
-                    learn how to make your money work for you, not the other way
-                    around!
+                    When you work with us, you'll receive top-notch money
+                    management skills and education. We'll equip you with the
+                    tools and knowledge you need to make informed financial
+                    decisions and avoid debt problems in the future. With
+                    confidence and courage, you'll learn how to make your money
+                    work for you, not the other way around.
                   </p>
                 </div>
               </div>
