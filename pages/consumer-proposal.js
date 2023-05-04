@@ -45,12 +45,6 @@ export default function ConsumerProposal() {
                   you owe in interchange for complete debt forgiveness.
                 </h5>
                 <p>
-                  Consumer proposals are legal abiding debt settlement
-                  agreements, which are filed with a certified bankruptcy
-                  trustee, to pay back a creditor a certain proportion of what
-                  you owe in interchange for complete debt forgiveness.
-                </p>
-                <p>
                   Your terms of payment depend on the negotiation between what
                   you can afford to pay and what your creditor expects to get.
                   Acting as an administrator for consumer proposals, your

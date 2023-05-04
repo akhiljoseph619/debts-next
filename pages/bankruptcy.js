@@ -97,6 +97,9 @@ export default function Bankruptcy() {
                   data-aos-delay="200"
                   data-aos-duration="1000"
                 >
+                  <div className="con-pro-hd">
+                    <h3>Will I lose all of my assets?</h3>
+                  </div>
                   <p>
                     One of the most common questions asked by those
                     contemplating bankruptcy is, "Will I lose all of my assets?"

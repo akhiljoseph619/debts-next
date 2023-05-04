@@ -132,8 +132,9 @@ export default function Home() {
                   </h1>
                 </div>
                 <h4>
-                  Debsolutions Group is a debt solutions company based in Canada
-                  that specializes in debt management and debt relief services.
+                  Debtsolutions Group is a debt solutions company based in
+                  Canada that specializes in debt management and debt relief
+                  services.
                 </h4>
                 <p>
                   They offer a range of debt solutions such as debt

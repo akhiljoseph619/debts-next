@@ -32,7 +32,7 @@ export default function Footer() {
                         info@debtsolutions.ca
                       </Link>
                     </li>
-                    <li>Monday - Saturday: 10:00 AM to 6 PM, IST</li>
+                    <li>Monday - Saturday: 10:00 AM to 6 PM</li>
                   </ul>
                 </div>
                 <ul className="social-list">
@@ -110,7 +110,7 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="">
+                    <Link className="ft-nav" href="/debt-consolidation.js">
                       Debt Consolidation Loans
                     </Link>
                   </li>
@@ -167,17 +167,7 @@ export default function Footer() {
                   </li>
                   <li className="btm-item">
                     <Link className="btm-link" href="">
-                      Disclaimer
-                    </Link>
-                  </li>
-                  <li className="btm-item">
-                    <Link className="btm-link" href="">
                       Privacy Policy
-                    </Link>
-                  </li>
-                  <li className="btm-item">
-                    <Link className="btm-link" href="/contact-us">
-                      Contact Us
                     </Link>
                   </li>
                 </ul>
