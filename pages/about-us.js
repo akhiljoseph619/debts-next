@@ -111,11 +111,11 @@ export default function AboutUs() {
                   help. That's where we come in.
                 </h4>
                 <p>
-                  Debt Solutions Services Ltd. offers solutions to your
-                  financial burdens that are tailored to be as unique as you
-                  are. We will first educate you about the solutions available,
-                  and then we'll help you make the right choices to get your
-                  finances - and your life - back on track.
+                  Debit Solutions Group offers solutions to your financial
+                  burdens that are tailored to be as unique as you are. We will
+                  first educate you about the solutions available, and then
+                  we'll help you make the right choices to get your finances -
+                  and your life - back on track.
                 </p>
                 <p>
                   We know right now it feels like the world is on your
