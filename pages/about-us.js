@@ -35,7 +35,7 @@ export default function AboutUs() {
                 </div>
                 <h5>
                   Debit Solutions Group is a debt solutions company based in
-                  Canada that specializes in debt management and debt relief
+                  GTA that specializes in debt management and debt relief
                   services.
                 </h5>
                 <p>
@@ -113,7 +113,7 @@ export default function AboutUs() {
                   We know right now it feels like the world is on your
                   shoulders, but the right solution can be surprisingly
                   painless. The well-qualified, well-trained, and courteous
-                  staff at GTA Credit Solutions are here to guide you every step
+                  staff at Debt Solutions Group are here to guide you every step
                   of the way.
                 </p>
               </div>

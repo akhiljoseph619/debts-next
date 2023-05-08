@@ -132,8 +132,8 @@ export default function Home() {
                   </h1>
                 </div>
                 <h4>
-                  Debtsolutions Group is a debt solutions company based in
-                  Canada that specializes in debt management and debt relief
+                  Debt Solutions Group is a debt solutions company based in
+                  GTA that specializes in debt management and debt relief
                   services.
                 </h4>
                 <p>

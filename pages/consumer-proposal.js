@@ -41,14 +41,14 @@ export default function ConsumerProposal() {
                 <h5>
                   Consumer proposals are legal abiding debt settlement
                   agreements, which are filed with a certified bankruptcy
-                  trustee, to pay back a creditor a certain proportion of what
+                  insolvency counsellor, to pay back a creditor a certain proportion of what
                   you owe in interchange for complete debt forgiveness.
                 </h5>
                 <p>
                   Your terms of payment depend on the negotiation between what
                   you can afford to pay and what your creditor expects to get.
                   Acting as an administrator for consumer proposals, your
-                  certified bankruptcy trustee will meet with you to help
+                  certified bankruptcy insolvency counsellor will meet with you to help
                   determine how much you have to offer and to evaluate your
                   financial condition.
                 </p>

@@ -50,7 +50,7 @@ export default function ConsumerProposal() {
                   Opting for a consumer proposal involves consolidating all of
                   your debts and proposing to pay your creditors a reduced
                   percentage of the amount owed. It's a legal agreement that is
-                  facilitated by a Licensed Insolvency Trustee and is regulated
+                  facilitated by a Licensed Insolvency Counsellor and is regulated
                   by the federal government.
                 </p>
                 <p>
@@ -110,7 +110,7 @@ export default function ConsumerProposal() {
                   </div>
                   <p>
                     Before submitting a consumer proposal, it's important to
-                    work with a Licensed Insolvency Trustee to determine if it's
+                    work with a Licensed Insolvency Counsellor to determine if it's
                     the right solution for your financial situation. We will
                     review your debts, income, expenses, and assets to determine
                     if a consumer proposal is a viable option for you. We will
