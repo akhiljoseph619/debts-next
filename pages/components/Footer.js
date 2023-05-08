@@ -177,6 +177,10 @@ export default function Footer() {
         </Container>
       </footer>
 
+      <div className="offer-sticky">
+        <img src="images/offer.png" alt="DebtSolutions" />
+      </div>
+
       <ScrollToTopButton />
     </>
   );

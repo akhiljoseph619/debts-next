@@ -27,15 +27,9 @@ export default function App({ Component, pageProps, isHome }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {isLoading ? (
-        <PreLoader />
-      ) : (
-        <>
-          <Navbar />
-          <Component {...pageProps} />
-          <Footer />
-        </>
-      )}
+      <Navbar />
+      <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
