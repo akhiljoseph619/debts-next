@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
@@ -132,9 +131,8 @@ export default function Home() {
                   </h1>
                 </div>
                 <h4>
-                  Debt Solutions Group is a debt solutions company based in
-                  GTA that specializes in debt management and debt relief
-                  services.
+                  Debt Solutions Group is a debt solutions company based in GTA
+                  that specializes in debt management and debt relief services.
                 </h4>
                 <p>
                   We offer a range of debt solutions such as debt consolidation

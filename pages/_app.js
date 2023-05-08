@@ -14,11 +14,6 @@ export default function App({ Component, pageProps, isHome }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-75G88G16KG"
-      />
-
       <Navbar />
       <Component {...pageProps} />
       <Footer />

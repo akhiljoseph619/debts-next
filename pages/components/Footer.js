@@ -161,12 +161,12 @@ export default function Footer() {
               <Col xs="12" lg="6">
                 <ul className="btm-list">
                   <li className="btm-item">
-                    <Link className="btm-link" href="">
+                    <Link className="btm-link" href="/terms-conditions">
                       Terms & Conditions
                     </Link>
                   </li>
                   <li className="btm-item">
-                    <Link className="btm-link" href="">
+                    <Link className="btm-link" href="/privacy-policy">
                       Privacy Policy
                     </Link>
                   </li>
