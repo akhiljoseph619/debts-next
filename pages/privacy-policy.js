@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap';
-import BookAssessment from './components/BookAssessment';
 
 export default function ConsumerProposal() {
   return (
