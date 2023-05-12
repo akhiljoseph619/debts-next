@@ -135,12 +135,7 @@ export default function Home() {
                   that specializes in debt management and debt relief services.
                 </h4>
                 <p>
-                  We offer a range of debt solutions such as debt consolidation
-                  loans, debt settlement programs, debt management plans, and
-                  bankruptcy assistance to help individuals and businesses
-                  struggling with debt. Debsolutions Group aims to help their
-                  clients become debt-free as quickly and efficiently as
-                  possible.
+                We offer a range of debt solutions such as debt consolidation, debt settlement, assistance with collection companies, debt management advice, and bankruptcy assistance to help individuals and businesses struggling with debt. Debtsolutions Group aims to help their clients become debt-free as quickly and efficiently as possible.
                 </p>
                 <Link className="btn btn-shine btn-book" href="/about-us">
                   Learn More
@@ -217,17 +212,10 @@ export default function Home() {
                     We're <span>here to Help you</span>
                   </h2>
                 </div>
-                <h4>
-                  Stop interest, collection calls, and garnishments, all while
-                  reducing and consolidating your debt through a consumer
-                  proposal or bankruptcy.
-                </h4>
-                <p>
-                  We know how to help you regain control of your debt and life
-                  and reduce financial stress.
-                </p>
+                <h4>Stop interest, collection calls, and garnishments, all while reducing and consolidating your debt through a consumer proposal or bankruptcy.</h4>
+                <p>We know how to help you regain control of your debt and life and reduce financial stress.</p>
                 <a className="btn btn-shine btn-book" href="#bookAssessment">
-                  BOOK A FREE ASSEssMENT
+                  BOOK A FREE ASSESSMENT
                 </a>
               </div>
             </Col>

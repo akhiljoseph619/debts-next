@@ -1,7 +1,7 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import TalkToUs from './components/TalkToUs';
-import BookAssessment from './components/BookAssessment';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import TalkToUs from "./components/TalkToUs";
+import BookAssessment from "./components/BookAssessment";
 
 export default function ConsumerProposal() {
   return (
@@ -14,7 +14,7 @@ export default function ConsumerProposal() {
                 <h1>
                   <span className="first-word">Consumer Proposal</span>
                 </h1>
-                <h4>Forgives up to 90 percent of your liability</h4>
+                <h4>Forgives up to 75 percent of your liability</h4>
               </div>
             </Container>
           </div>
@@ -31,8 +31,6 @@ export default function ConsumerProposal() {
               <div className="page-intro-cover">
                 <div className="page-intro-hd">
                   <h2>
-                    Consumer proposals as a debt settlement plan in canada{' '}
-                    <br />
                     <span className="fc-100 fw-500">
                       What are Consumer Proposals?
                     </span>
@@ -40,23 +38,19 @@ export default function ConsumerProposal() {
                 </div>
                 <h5>
                   Consumer proposals are legal abiding debt settlement
-                  agreements, which are filed with a certified bankruptcy
-                  insolvency counsellor, to pay back a creditor a certain proportion of what
-                  you owe in interchange for complete debt forgiveness.
+                  agreements, which are filed through a Licensed Insolvency
+                  Trustee, to pay back creditors a certain proportion of what
+                  you owe according to your financial situation.
                 </h5>
                 <p>
                   Your terms of payment depend on the negotiation between what
                   you can afford to pay and what your creditor expects to get.
-                  Acting as an administrator for consumer proposals, your
-                  certified bankruptcy insolvency counsellor will meet with you to help
-                  determine how much you have to offer and to evaluate your
-                  financial condition.
+                  Your credit counsellor will guide you through the process to
+                  obtain the best possible solution for you.
                 </p>
                 <p>
                   A consumer proposal plan offers debt relief for Canadians
-                  struggling with paying monthly debts while avoiding going
-                  bankrupt. In Canada, the consumer debt proposals are the only
-                  program for debt settlement approved by the government.
+                  struggling with their debts while avoiding going bankrupt.
                 </p>
               </div>
             </Col>
@@ -108,24 +102,16 @@ export default function ConsumerProposal() {
                     <h3>Will a Consumer Proposal do away with debt?</h3>
                   </div>
                   <p>
-                    Consumer credit proposals deal with an unsecured creditor
-                    and can get rid of practically all debts such as:
+                    Consumer proposals can eliminate most if not all of the
+                    following debts:
                   </p>
                   <ul>
-                    <li>Student loan debts</li>
-                    <li>
-                      Tax debts include Personal Tax, HST, and Source Deduction
-                      payment
-                    </li>
-                    <li>Payday loans</li>
-                    <li>Bank loans</li>
                     <li>Credit card loans and Unsecured Line of credit</li>
+                    <li>Bank loans</li>
+                    <li>Student loan debts</li>
+                    <li>Personal & Business Taxes</li>
+                    <li>Payday loans</li>
                   </ul>
-                  <p>
-                    Furthermore, a consumer proposal does not have an effect on
-                    a secured car loan or the mortgage on your principal
-                    residence.
-                  </p>
                 </div>
               </div>
             </Col>
@@ -188,17 +174,15 @@ export default function ConsumerProposal() {
                       collection agencies
                     </li>
                     <li>
-                      It lawfully binds all creditors to your offer including
-                      the Canada revenue agency and payday lenders
+                      It lawfully binds all creditors
                     </li>
                     <li>It freezes interest on debts</li>
-                    <li>It merges debts into a low-end monthly payment</li>
+                    <li>It merges debts into a small monthly payment</li>
                     <li>
-                      It keeps all your properties including any equity in your
-                      residence
+                      It keeps all your property
                     </li>
                     <li>
-                      It reduces your liability by up to 70 to 80 percent.
+                      It reduces your liability by up to 75 percent.
                     </li>
                   </ul>
                 </div>

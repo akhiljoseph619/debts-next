@@ -14,7 +14,7 @@ export default function ConsumerProposal() {
                 <h1>
                   <span className="first-word">Debt Relief Services</span>
                 </h1>
-                <h4>Forgives up to 90 percent of your liability</h4>
+                <h4>Forgives up to 75 percent of your liability</h4>
               </div>
             </Container>
           </div>
@@ -50,14 +50,8 @@ export default function ConsumerProposal() {
                   Opting for a consumer proposal involves consolidating all of
                   your debts and proposing to pay your creditors a reduced
                   percentage of the amount owed. It's a legal agreement that is
-                  facilitated by a Licensed Insolvency Counsellor and is regulated
+                  facilitated by a Licensed Insolvency Trustee and is regulated
                   by the federal government.
-                </p>
-                <p>
-                  Compared to bankruptcy, a consumer proposal provides several
-                  benefits: you can retain possession of all your assets, halt
-                  interest charges, put a stop to collection calls, and prevent
-                  creditors from taking legal action against you.
                 </p>
               </div>
             </Col>
@@ -110,13 +104,13 @@ export default function ConsumerProposal() {
                   </div>
                   <p>
                     Before submitting a consumer proposal, it's important to
-                    work with a Licensed Insolvency Counsellor to determine if it's
-                    the right solution for your financial situation. We will
-                    review your debts, income, expenses, and assets to determine
-                    if a consumer proposal is a viable option for you. We will
-                    also help you develop a repayment plan that is tailored to
-                    your specific financial situation and that will help you
-                    achieve your debt repayment goals.
+                    work with a Qualified and Experienced Credit Counsellor to
+                    determine if it's the right solution for your financial
+                    situation. We will review your debts, income, expenses, and
+                    assets to determine if a consumer proposal is a viable
+                    option for you. We will also help you develop a repayment
+                    plan that is tailored to your specific financial situation
+                    and that will help you achieve your debt repayment goals.
                   </p>
                   <p>
                     It's worth noting that a consumer proposal will affect your
@@ -180,7 +174,7 @@ export default function ConsumerProposal() {
                   <p>
                     Declaring personal bankruptcy is not a decision to be made
                     lightly and should only be done after consulting with a
-                    Licensed Insolvency Trustee. At our company, we have
+                    Qualified and Experienced Credit Counsellor. At our company, we have
                     assisted countless clients in assessing the advantages and
                     disadvantages of declaring personal bankruptcy and, if
                     necessary, guiding them through the process.
@@ -189,79 +183,7 @@ export default function ConsumerProposal() {
                     When you file for personal bankruptcy in Canada, you are
                     informing the courts and creditors that you are unable to
                     pay off your debts on time and have insufficient assets to
-                    do so. Declaring personal bankruptcy allows you to begin
-                    anew.
-                  </p>
-                </div>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section
-        className="con-pro-sec pt-4 pt-xl-5 pb-4 pb-xl-5"
-        data-aos="fadeIn"
-      >
-        <Container fluid="xxl">
-          <Row>
-            <Col xs="12">
-              <div className="con-pro-item">
-                <figure>
-                  <div
-                    className="con-item-img"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                  >
-                    <img src="images/debt-relief-item-03.jpg" alt="Image" />
-                  </div>
-                  <div className="particle-cover">
-                    <div className="particle-item">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 45 45"
-                        className="particle-svg"
-                      >
-                        <path d="M29.8 22L40.4 32.6 33.4 39.7 22.8 29.1 12.1 39.7 5.1 32.6 15.7 22 5.1 11.4 12.1 4.3 22.8 14.9 33.4 4.3 40.4 11.4z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="con-d-shape">
-                    <img src="images/d-shape.svg" alt="D Shape" />
-                  </div>
-                </figure>
-                <div
-                  className="con-pro-body"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  data-aos-duration="1000"
-                >
-                  <div className="con-pro-hd">
-                    <h3>Applying for a debt consolidation loan</h3>
-                  </div>
-                  <p>
-                    A debt consolidation loan can be a viable option for those
-                    who are eligible to apply for a loan from a bank or credit
-                    union. This loan is typically used to pay off consumer debt
-                    like credit cards, and often comes with a lower interest
-                    rate than the original debts.
-                  </p>
-                  <p>
-                    However, not everyone may qualify for a low-interest loan,
-                    especially those with poor credit scores. In such cases,
-                    some individuals may consider turning to third-party lenders
-                    who may charge exorbitant interest rates that can go up to
-                    almost 60%.
-                  </p>
-                  <p>
-                    While consolidating debt through a loan may seem like a
-                    quick solution, it's important to consider the long-term
-                    impact of the loan's interest rate. If the interest rate is
-                    too high, it may lead to further financial strain in the
-                    future.
+                    do so.
                   </p>
                 </div>
               </div>

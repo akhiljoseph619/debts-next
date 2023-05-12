@@ -14,7 +14,7 @@ export default function ConsumerProposal() {
                 <h1>
                   <span className="first-word">Debt Consolidation</span>
                 </h1>
-                <h4>Forgives up to 90 percent of your liability</h4>
+                <h4>Forgives up to 75 percent of your liability</h4>
               </div>
             </Container>
           </div>
@@ -66,7 +66,7 @@ export default function ConsumerProposal() {
                   </div>
                   <p>
                     In Canada, there are two types of debt consolidation:
-                    high-interest debt consolidation loans and interest-free
+                    high-interest debt consolidation and interest-free
                     consumer proposals. While many people are familiar with debt
                     consolidation loans, not everyone knows about the option of
                     a consumer proposal, which is a better way to consolidate

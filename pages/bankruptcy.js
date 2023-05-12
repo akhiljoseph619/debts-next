@@ -14,7 +14,7 @@ export default function Bankruptcy() {
                 <h1>
                   <span className="first-word">Bankruptcy</span>
                 </h1>
-                <h4>Forgives up to 90 percent of your liability</h4>
+                {/* <h4>Forgives up to 75 percent of your liability</h4> */}
               </div>
             </Container>
           </div>

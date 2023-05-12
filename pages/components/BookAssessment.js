@@ -137,8 +137,7 @@ export default function BookAssessment() {
                   </figure>
                   <div className="service-body">
                     <h5>
-                      Debt Consolidation <br />
-                      Loans
+                      Debt <br /> Consolidation
                     </h5>
                   </div>
                 </Link>

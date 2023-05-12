@@ -25,11 +25,11 @@ export default function Footer() {
                 <div className="ft-address">
                   <ul className="ft-con-list">
                     <li>
-                      <Link href="tel:+416 650 1140">+416 650 1140</Link>
+                      <Link href="tel:9052303328">905-230-3328</Link>
                     </li>
                     <li>
-                      <Link href="mailto:info@debtsolutions.ca">
-                        info@debtsolutions.ca
+                      <Link href="mailto:info@debtsolutionsgroup.ca">
+                      info@debtsolutionsgroup.ca
                       </Link>
                     </li>
                     <li>Monday - Saturday: 10:00 AM to 6 PM</li>
@@ -111,7 +111,7 @@ export default function Footer() {
                   </li>
                   <li className="ft-item">
                     <Link className="ft-nav" href="/debt-consolidation.js">
-                      Debt Consolidation Loans
+                      Debt Consolidation
                     </Link>
                   </li>
                   <li className="ft-item">
