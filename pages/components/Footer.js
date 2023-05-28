@@ -18,7 +18,7 @@ export default function Footer() {
                   <Link href="">
                     <img
                       src="images/debt-logo-footer.png"
-                      alt="DebtSolutions"
+                      alt="Debt Solutions"
                     />
                   </Link>
                 </div>
@@ -110,12 +110,12 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="/debt-consolidation.js">
+                    <Link className="ft-nav" href="javascript:">
                       Debt Consolidation
                     </Link>
                   </li>
                   <li className="ft-item">
-                    <Link className="ft-nav" href="/credit-counselling">
+                    <Link className="ft-nav" href="javascript:">
                       Credit Counselling
                     </Link>
                   </li>

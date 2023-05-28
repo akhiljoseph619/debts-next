@@ -11,9 +11,8 @@ export default function AboutUs() {
             <Container fluid="xxl">
               <div className="ins-banner-hd">
                 <h1>
-                  <span className="first-word">About</span> Company
+                  <span className="first-word">About</span> Us
                 </h1>
-                <h4>Forgives up to 75 percent of your liability</h4>
               </div>
             </Container>
           </div>
@@ -34,10 +33,10 @@ export default function AboutUs() {
                   </h2>
                 </div>
                 <h5>
-                Debit Solutions Group is a debt solutions company based in the GTA that specializes in debt management and debt relief services.
+                Debt Solutions Group is a debt solutions company based in the GTA that specializes in debt management and debt relief services.
                 </h5>
                 <p>
-                We offer a range of debt solutions such as debt consolidation, debt settlement programs, debt management advice, and bankruptcy assistance to help individuals and businesses struggling with debt. Debtsolutions Group aims to help their clients become debt-free as quickly and efficiently as possible.
+                We offer a range of debt solutions such as debt consolidation, debt settlement programs, debt management advice, and bankruptcy assistance to help individuals and businesses struggling with debt. Debt Solutions Group aims to help their clients become debt-free as quickly and efficiently as possible.
                 </p>
               </div>
             </Col>
@@ -96,7 +95,7 @@ export default function AboutUs() {
                   help. That's where we come in.
                 </h4>
                 <p>
-                  Debit Solutions Group offers solutions to your financial
+                  Debt Solutions Group offers solutions to your financial
                   burdens that are tailored to be as unique as you are. We will
                   first educate you about the solutions available, and then
                   we'll help you make the right choices to get your finances -
@@ -236,7 +235,7 @@ export default function AboutUs() {
               <div className="adv-content">
                 <div className="section-hd">
                   <h3>
-                    The Debtsolutions<span className="fw-500"> advantage</span>
+                    The Debt Solutions<span className="fw-500"> advantage</span>
                   </h3>
                 </div>
                 <div className="adv-con-body">

@@ -1,7 +1,7 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import TalkToUs from './components/TalkToUs';
-import BookAssessment from './components/BookAssessment';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import TalkToUs from "./components/TalkToUs";
+import BookAssessment from "./components/BookAssessment";
 
 export default function Bankruptcy() {
   return (
@@ -14,7 +14,6 @@ export default function Bankruptcy() {
                 <h1>
                   <span className="first-word">Bankruptcy</span>
                 </h1>
-                {/* <h4>Forgives up to 75 percent of your liability</h4> */}
               </div>
             </Container>
           </div>
@@ -31,26 +30,31 @@ export default function Bankruptcy() {
               <div className="page-intro-cover">
                 <div className="page-intro-hd">
                   <h2>
-                    <span className="fc-100 fw-500">
-                      Get a fresh financial start with bankruptcy
-                    </span>
+                    <span className="fc-100 fw-500">What is Bankruptcy?</span>
                   </h2>
                 </div>
                 <p>
                   If you're an honest debtor who has fallen on hard times, you
                   can opt for the legal process of bankruptcy, which is overseen
-                  by the Act. This process allows you to obtain a discharge from
-                  your debts, subject to certain conditions. By declaring
-                  bankruptcy, your secured creditors are prevented from taking
-                  legal action to collect what you owe them, such as seizing
-                  your assets or garnishing your wages.
+                  by the Bankruptcy and Insolvency Act. This process allows you
+                  to obtain a discharge from your debts, subject to certain
+                  conditions.
                 </p>
+
                 <p>
-                  If you have debts exceeding $1,000 and have thoroughly
-                  considered all your alternatives, filing for bankruptcy could
-                  be the appropriate decision to take.
+                  By declaring bankruptcy, collection activities are halted, and
+                  creditors can no longer contact you. You can have a fresh
+                  financial start through this process however it is important
+                  to understand that filing for bankruptcy has long term impacts
+                  on your credit.
                 </p>
-                <p></p>
+
+                <p>
+                  If you have thoroughly considered all other alternatives,
+                  filing for bankruptcy could be the appropriate decision to
+                  take. We will sit down with you and explain the entire process
+                  and answer any questions you may have.
+                </p>
               </div>
             </Col>
           </Row>
@@ -58,7 +62,7 @@ export default function Bankruptcy() {
       </section>
 
       <section
-        className="con-pro-sec pt-4 pt-xl-5 pb-4 pb-xl-5"
+        className="con-pro-sec pt-4 pt-xl-5 pb-4 pb-xl-5 d-none"
         data-aos="fadeIn"
       >
         <Container fluid="xxl">

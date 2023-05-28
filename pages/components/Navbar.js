@@ -27,7 +27,7 @@ export default function navbarMain() {
       <Container fluid="xxl">
         <div className="logo">
           <Link href="/">
-            <img src="images/debt-logo.png" alt="DEBTSOLUTIONS GROUP" />
+            <img src="images/debt-logo.png" alt="DEBT SOLUTIONS GROUP" />
           </Link>
         </div>
 

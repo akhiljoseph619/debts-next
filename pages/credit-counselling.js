@@ -14,7 +14,7 @@ export default function ConsumerProposal() {
                 <h1>
                   <span className="first-word">Credit Counselling</span>
                 </h1>
-                <h4>Forgives up to 75 percent of your liability</h4>
+
               </div>
             </Container>
           </div>

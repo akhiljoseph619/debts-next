@@ -131,11 +131,11 @@ export default function Home() {
                   </h1>
                 </div>
                 <h4>
-                  Debt Solutions Group is a debt solutions company based in GTA
+                  Debt Solutions Group is a debt solutions company based in the GTA
                   that specializes in debt management and debt relief services.
                 </h4>
                 <p>
-                We offer a range of debt solutions such as debt consolidation, debt settlement, assistance with collection companies, debt management advice, and bankruptcy assistance to help individuals and businesses struggling with debt. Debtsolutions Group aims to help their clients become debt-free as quickly and efficiently as possible.
+                We offer a range of debt solutions such as debt consolidation, debt settlement, assistance with collection companies, debt management advice, and bankruptcy assistance to help individuals and businesses struggling with debt. Debt Solutions Group aims to help their clients become debt-free as quickly and efficiently as possible.
                 </p>
                 <Link className="btn btn-shine btn-book" href="/about-us">
                   Learn More

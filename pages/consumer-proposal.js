@@ -14,7 +14,7 @@ export default function ConsumerProposal() {
                 <h1>
                   <span className="first-word">Consumer Proposal</span>
                 </h1>
-                <h4>Forgives up to 75 percent of your liability</h4>
+
               </div>
             </Container>
           </div>
@@ -179,10 +179,10 @@ export default function ConsumerProposal() {
                     <li>It freezes interest on debts</li>
                     <li>It merges debts into a small monthly payment</li>
                     <li>
-                      It keeps all your property
+                      It allows you to save your property
                     </li>
                     <li>
-                      It reduces your liability by up to 75 percent.
+                      It can reduces your liability by up to 75 percent.
                     </li>
                   </ul>
                 </div>
@@ -192,7 +192,7 @@ export default function ConsumerProposal() {
         </Container>
       </section>
 
-      <section className="requirements-sec py-4 py-xl-5" data-aos="fadeIn">
+      <section className="requirements-sec py-4 py-xl-5 d-none" data-aos="fadeIn">
         <Container fluid="xxl">
           <Row>
             <Col xs="12">
