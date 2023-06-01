@@ -20,7 +20,7 @@ export default function BookAssessment() {
     try {
       setIsSubmitting(true);
       data.recaptcha= recaptchaRef.current.getValue();
-      let response = await fetch("/action.php", {
+      let response = await fetch("api/sendgrid", {
         method: "POST", // or 'PUT'
         credentials: "same-origin",
         headers: {
@@ -120,7 +120,7 @@ export default function BookAssessment() {
                       ></textarea>
                       <label>Message</label>
                     </div>
-                    {errors.phone && errors.message.type === "required" && (
+                    {errors.message && errors.message.type === "required" && (
                       <span className="error">This field is required</span>
                     )}
                   </div>
