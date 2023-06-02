@@ -1,47 +1,69 @@
 import Link from "next/link";
 import { useForm } from "react-hook-form";
-import { Container, Row, Col } from "react-bootstrap";
 import ReCAPTCHA from "react-google-recaptcha";
+import { Container, Row, Col } from "react-bootstrap";
 import { useRef, useState } from "react";
+import { useRouter } from 'next/navigation';
 
 export default function BookAssessment() {
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [showSuccess, setShowSuccess] = useState(false);
   const [responseMessage, setResponseMessage] = useState(false);
   const recaptchaRef = useRef(null);
+  const formRef = useRef();
+  const router = useRouter();
   const {
     register,
     handleSubmit,
     watch,
     formState: { errors },
-    reset
+    reset,
+    getValues,
   } = useForm();
-  const onSubmit = async (data) => {
+  const onSubmit = (data) => {
+    recaptchaRef.current.execute();
+  };
+
+  const onReCAPTCHAChange = async (captchaCode) => {
+    if (!captchaCode) {
+      return;
+    }
     try {
       setIsSubmitting(true);
-      data.recaptcha= recaptchaRef.current.getValue();
-      let response = await fetch("api/sendgrid", {
-        method: "POST", // or 'PUT'
-        credentials: "same-origin",
-        headers: {
-          "Content-Type": "application/json",
-          "X-Requested-With": "XMLHttpRequest",
-        },
-        body: JSON.stringify(data),
-      });
-      let result = await response.json();
-      setShowSuccess(true);
-      setResponseMessage(result.message);
-      setIsSubmitting(false);
-      reset();
+      setResponseMessage(false);
+      let data = getValues();
+      data.recaptcha = recaptchaRef?.current?.getValue();
+      if (data.recaptcha) {
+        let response = await fetch("api/contact", {
+          method: "POST", // or 'PUT'
+          credentials: "same-origin",
+          headers: {
+            "Content-Type": "application/json",
+            "X-Requested-With": "XMLHttpRequest",
+          },
+          body: JSON.stringify(data),
+        });
+        if (response.ok) {
+          reset();
+          router.push('/ThankYou');
+        } else {
+          let result = await response.json();
+          setResponseMessage(result.error);
+        }
+        recaptchaRef.current.reset();
+        setIsSubmitting(false);
+      } else {
+        setIsSubmitting(false);
+        console.log("executing");
+        setResponseMessage("Captcha Field is Required.");
+        recaptchaRef.current.execute();
+      }
     } catch (error) {
       console.log(error);
       setIsSubmitting(false);
-      alert("Error!!!");
+      setResponseMessage("Error!!!");
+      recaptchaRef.current.reset();
     }
   };
-
-  const closePop = () => setShowSuccess(false);
 
   return (
     <>
@@ -60,7 +82,17 @@ export default function BookAssessment() {
                   <span>Assessment Session! </span>
                 </h2>
               </div>
-              <form onSubmit={handleSubmit(onSubmit)} className="assessmentForm">
+              <form
+                reference={formRef}
+                onSubmit={handleSubmit(onSubmit)}
+                className="assessmentForm"
+              >
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  size="invisible"
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                  onChange={onReCAPTCHAChange}
+                />
                 <div className="book-form">
                   <div className="form-group">
                     <div className="form-floating">
@@ -125,40 +157,24 @@ export default function BookAssessment() {
                     )}
                   </div>
                   <div className="form-group">
-                    <ReCAPTCHA
-                      ref={recaptchaRef}
-                      sitekey={"6Ld9iRUmAAAAAOXj_pHtNXNiw_aCCJp62rX3DEXF"}
-                    />
-                  </div>
-                  <button className="btn btn-shine btn-submit">
-                    {isSubmitting ? (
-                      <div className="button-loader" id="loader-4">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </div>
+                    <button className="btn btn-shine btn-submit">
+                      {isSubmitting ? (
+                        <div className="button-loader" id="loader-4">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      ) : (
+                        "Submit"
+                      )}
+                    </button>
+                    {responseMessage ? (
+                      <span className="error">{responseMessage}</span>
                     ) : (
-                      "Submit"
+                      ""
                     )}
-                  </button>
-                </div>
-                {showSuccess ? (
-                  <div class="popup-overlay">
-                    <div class="popup-content">
-                      <h2>Message</h2>
-                      <p class="messages">{responseMessage}</p>
-                      <a
-                        href="javascript:"
-                        class="pop-close"
-                        onClick={closePop}
-                      >
-                        Close
-                      </a>
-                    </div>
                   </div>
-                ) : (
-                  ""
-                )}
+                </div>
               </form>
             </div>
           </Col>
